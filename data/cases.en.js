@@ -1,5 +1,65 @@
 window.PORTFOLIO_CASES = [
   {
+    "id": "organic-polymer-forms-pavlov",
+    "category": "Atomic Heart / Organic Art",
+    "title": "Pavlov Complex — Organic Polymer Forms",
+    "cover": "assets/images/cases/organic-polymer-forms/717516000_18134370334505563_4044168657745951982_n(1).jpg",
+    "summary": "Organic polymer forms, biomass and blood-like polymer for Pavlov Complex workshop scenes.",
+    "role": "Organic polymer forms, biomass, blood-like polymer and Blueprint scene compositions with bathtubs, lamps and medical equipment.",
+    "description": "Worked on organic polymer forms, biomass and blood-like polymer for Pavlov Complex: pig, bear, dog, deer and horse. Built Blueprint scene compositions with bathtubs, lamps and medical equipment.",
+    "process": [
+      "Created organic polymer and biomass forms",
+      "Developed blood-like polymer surface language",
+      "Worked on animal-based forms: pig, bear, dog, deer and horse",
+      "Built Blueprint scene compositions around medical props",
+      "Integrated bathtubs, lamps and medical equipment into production scenes"
+    ],
+    "tools": [
+      "Maya",
+      "ZBrush",
+      "Houdini",
+      "UE4"
+    ],
+    "images": [
+      "assets/images/cases/organic-polymer-forms/717516000_18134370334505563_4044168657745951982_n(1).jpg",
+      "assets/images/cases/organic-polymer-forms/713863345_18134370319505563_1919109096773654203_n.jpg",
+      "assets/images/cases/organic-polymer-forms/714852615_18134370310505563_4472803403943953719_n.jpg",
+      "assets/images/cases/organic-polymer-forms/714748896_18134370301505563_2470143068897201063_n.jpg",
+      "assets/images/cases/organic-polymer-forms/718062077_18134370289505563_1729849721951419988_n.jpg",
+      "assets/images/cases/organic-polymer-forms/717273798_18134370280505563_5447566406773484872_n.jpg",
+      "assets/images/cases/organic-polymer-forms/715419331_18134370271505563_6599054382606730869_n.jpg",
+      "assets/images/cases/organic-polymer-forms/717140605_18134370241505563_8329370400862010317_n.jpg"
+    ]
+  },
+  {
+    "id": "crystal-animals",
+    "category": "Atomic Heart / Creature Design",
+    "title": "Atomic Heart — Crystal Animals",
+    "cover": "assets/images/cases/crystal-animals/713204700_18134198467505563_7543097375654943931_n.webp",
+    "summary": "Transparent crystal animal creatures built from scratch with readable internal organic structure.",
+    "role": "Created the crystal animals from scratch: internal organs, bones, skin / outer shell, retopology and UVs.",
+    "description": "A separate part of my work for Atomic Heart was focused on the crystal animals. I created them from scratch: internal organs, bones, skin / outer shell, retopology, and UVs. The goal was not just to make a transparent form, but to build a readable internal organic structure, so the creature felt alive and believable inside the game world — from the initial idea and form to the final production-ready game asset.",
+    "process": [
+      "Developed the initial creature form and silhouette",
+      "Created readable internal organs and bone structures",
+      "Built transparent skin / outer shell treatment",
+      "Prepared retopology and UVs for production",
+      "Delivered final production-ready game assets"
+    ],
+    "tools": [
+      "Maya",
+      "ZBrush",
+      "Houdini",
+      "UE4"
+    ],
+    "images": [
+      "assets/images/cases/crystal-animals/713204700_18134198467505563_7543097375654943931_n.webp",
+      "assets/images/cases/crystal-animals/713443348_18134198440505563_2483862000784348711_n.webp",
+      "assets/images/cases/crystal-animals/714383851_18134198458505563_5710493308057237026_n.webp",
+      "assets/images/cases/crystal-animals/713243570_18134198449505563_8210409205181157012_n.webp"
+    ]
+  },
+  {
     "id": "vehicle-set",
     "category": "Atomic Heart / Vehicle Art",
     "title": "Atomic Heart — Vehicle Assets",
@@ -94,6 +154,42 @@ window.PORTFOLIO_CASES = [
     ]
   },
   {
+    "id": "moskvich-vehicle-assets",
+    "category": "Atomic Heart / Vehicle Art",
+    "title": "Atomic Heart — Moskvich Vehicle Assets",
+    "cover": "assets/images/cases/moskvich-vehicle/HighresScreenshot01243.png",
+    "summary": "Full production work on Moskvich vehicle variants: optimization, material slot cleanup, layered/tiled materials, vertex color setup, textures and Blueprint variants.",
+    "role": "Full-cycle work on Moskvich assets: polygon reduction, material slot optimization, layered/tiled material setup, vertex color preparation, texture detailing and Blueprint assemblies with open/closed doors and color variants.",
+    "description": "Worked on Atomic Heart Moskvich vehicle assets as part of the production vehicle set. My work included reworking and optimizing the assets, reducing polygon count where needed, cleaning material slots, setting up layered/tiled material logic, preparing vertex colors for selection and mask control in the layered material system, final texture detailing, dirt/wear/rust treatment, glass/material setup, and Blueprint assemblies for different variants: open doors, closed doors and multiple color versions.",
+    "process": [
+      "Reworked Moskvich vehicle asset structure for production use",
+      "Reduced polygon count where needed and cleaned the asset setup",
+      "Optimized material slots and simplified material structure",
+      "Set up layered/tiled materials for surface variation",
+      "Prepared vertex colors for selection and mask control in the layered material system",
+      "Detailed textures: scratches, dirt, rust, wear, glass and interior surfaces",
+      "Built Blueprint variants with open/closed doors and different color versions",
+      "Prepared final production-ready assets for Unreal Engine"
+    ],
+    "tools": [
+      "Maya",
+      "Substance Painter",
+      "Unreal Engine"
+    ],
+    "images": [
+      "assets/images/cases/moskvich-vehicle/HighresScreenshot01243.png",
+      "assets/images/cases/moskvich-vehicle/HighresScreenshot01244.png",
+      "assets/images/cases/moskvich-vehicle/HighresScreenshot01245.png",
+      "assets/images/cases/moskvich-vehicle/HighresScreenshot01246.png",
+      "assets/images/cases/moskvich-vehicle/HighresScreenshot01247.png",
+      "assets/images/cases/moskvich-vehicle/HighresScreenshot01250.png",
+      "assets/images/cases/moskvich-vehicle/HighresScreenshot01249.png",
+      "assets/images/cases/moskvich-vehicle/HighresScreenshot01226.png",
+      "assets/images/cases/moskvich-vehicle/HighresScreenshot01224.png",
+      "assets/images/cases/moskvich-vehicle/HighresScreenshot01233.png"
+    ]
+  },
+  {
     "id": "hogweed-workshop",
     "category": "Atomic Heart / Blueprint Prefab",
     "title": "Atomic Heart — Hogweed Workshop Area",
@@ -119,6 +215,37 @@ window.PORTFOLIO_CASES = [
       "assets/images/cases/hogweed-workshop/714522246_18134380375505563_8153811156261293247_n.jpg",
       "assets/images/cases/hogweed-workshop/717536019_18134380384505563_3140187856423994821_n.jpg",
       "assets/images/cases/hogweed-workshop/716370393_18134380366505563_1979785796264724878_n.jpg"
+    ]
+  },
+  {
+    "id": "hogweed-level-dressing",
+    "category": "Atomic Heart / Organic Level Dressing",
+    "title": "Atomic Heart — Hogweed Workshop Level Dressing",
+    "cover": "assets/images/cases/hogweed-level-dressing/hogweed_level_dressing_01.jpg",
+    "summary": "Organic level dressing for the hogweed workshop area: Blueprint assemblies, foliage instancing and location dressing with glass wagons and polymer overgrowth.",
+    "role": "Dressed the level with organic growth, built Blueprint/Prefab assemblies, distributed organic elements through the location, and set up instanced foliage compositions around glass wagons and workshop spaces.",
+    "description": "Worked on the hogweed workshop / organic overgrowth area for Atomic Heart. My contribution included level dressing with organic forms, Blueprint/Prefab assemblies, foliage instancing, scattering organic growth across the location, and building compositions around glass wagons, workshop props and industrial spaces. The goal was to make the location feel infected, overgrown and production-ready while keeping the organic layer modular and usable for level assembly.",
+    "process": [
+      "Dressed the level with organic growth and polymer vegetation",
+      "Built reusable Blueprint/Prefab assemblies for location use",
+      "Set up instanced foliage compositions inside Blueprints",
+      "Distributed organic masses across walls, ceiling areas and workshop zones",
+      "Integrated glass wagons and environment props into the organic scene composition",
+      "Prepared modular organic blocks for UE4 level production"
+    ],
+    "tools": [
+      "Maya",
+      "ZBrush",
+      "Houdini",
+      "UE4"
+    ],
+    "images": [
+      "assets/images/cases/hogweed-level-dressing/hogweed_level_dressing_01.jpg",
+      "assets/images/cases/hogweed-level-dressing/hogweed_level_dressing_02.jpg",
+      "assets/images/cases/hogweed-level-dressing/hogweed_level_dressing_03.jpg",
+      "assets/images/cases/hogweed-level-dressing/hogweed_level_dressing_04.jpg",
+      "assets/images/cases/hogweed-level-dressing/hogweed_level_dressing_05.jpg",
+      "assets/images/cases/hogweed-level-dressing/hogweed_level_dressing_06.jpg"
     ]
   },
   {

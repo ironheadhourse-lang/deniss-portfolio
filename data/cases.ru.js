@@ -1,5 +1,65 @@
 window.PORTFOLIO_CASES = [
   {
+    "id": "organic-polymer-forms-pavlov",
+    "category": "Atomic Heart / Organic Art",
+    "title": "Pavlov Complex — органические полимерные формы",
+    "cover": "assets/images/cases/organic-polymer-forms/717516000_18134370334505563_4044168657745951982_n(1).jpg",
+    "summary": "Органические полимерные формы, биомасса и кровавый полимер для цехов комплекса «Павлов».",
+    "role": "Органические полимерные формы, биомасса, кровавый полимер и Blueprint-композиции с ваннами, лампами и медицинским оборудованием.",
+    "description": "Работал над органическими полимерными формами, биомассой и кровавым полимером для комплекса «Павлов»: свинья, медведь, собака, олень и лошадь. Собирал Blueprint-композиции из ванн, ламп и медоборудования.",
+    "process": [
+      "Создание органических полимерных форм и биомассы",
+      "Разработка языка поверхности кровавого полимера",
+      "Работа с animal-based формами: свинья, медведь, собака, олень и лошадь",
+      "Сборка Blueprint-композиций вокруг медицинских пропсов",
+      "Интеграция ванн, ламп и медоборудования в production-сцены"
+    ],
+    "tools": [
+      "Maya",
+      "ZBrush",
+      "Houdini",
+      "UE4"
+    ],
+    "images": [
+      "assets/images/cases/organic-polymer-forms/717516000_18134370334505563_4044168657745951982_n(1).jpg",
+      "assets/images/cases/organic-polymer-forms/713863345_18134370319505563_1919109096773654203_n.jpg",
+      "assets/images/cases/organic-polymer-forms/714852615_18134370310505563_4472803403943953719_n.jpg",
+      "assets/images/cases/organic-polymer-forms/714748896_18134370301505563_2470143068897201063_n.jpg",
+      "assets/images/cases/organic-polymer-forms/718062077_18134370289505563_1729849721951419988_n.jpg",
+      "assets/images/cases/organic-polymer-forms/717273798_18134370280505563_5447566406773484872_n.jpg",
+      "assets/images/cases/organic-polymer-forms/715419331_18134370271505563_6599054382606730869_n.jpg",
+      "assets/images/cases/organic-polymer-forms/717140605_18134370241505563_8329370400862010317_n.jpg"
+    ]
+  },
+  {
+    "id": "crystal-animals",
+    "category": "Atomic Heart / Creature Design",
+    "title": "Atomic Heart — кристальные животные",
+    "cover": "assets/images/cases/crystal-animals/713204700_18134198467505563_7543097375654943931_n.webp",
+    "summary": "Прозрачные кристальные животные с читаемой внутренней органической структурой, созданные с нуля.",
+    "role": "Создавал кристальных животных с нуля: внутренние органы, кости, skin / внешнюю оболочку, ретопологию и UV-развёртки.",
+    "description": "Отдельная часть моей работы для Atomic Heart — кристальные животные. Создавал их с нуля: внутренние органы, кости, skin / внешнюю оболочку, ретопологию и UV-развёртки. Задача была не просто сделать прозрачную форму, а собрать внутри читаемую органическую структуру, чтобы существо ощущалось живым и цельным внутри игрового мира — от идеи и формы до финального production-ready ассета для игры.",
+    "process": [
+      "Разработка начальной формы и силуэта существа",
+      "Создание читаемых внутренних органов и костных структур",
+      "Работа со skin / прозрачной внешней оболочкой",
+      "Ретопология и UV-развёртки для production",
+      "Финальная подготовка production-ready game asset"
+    ],
+    "tools": [
+      "Maya",
+      "ZBrush",
+      "Houdini",
+      "UE4"
+    ],
+    "images": [
+      "assets/images/cases/crystal-animals/713204700_18134198467505563_7543097375654943931_n.webp",
+      "assets/images/cases/crystal-animals/713443348_18134198440505563_2483862000784348711_n.webp",
+      "assets/images/cases/crystal-animals/714383851_18134198458505563_5710493308057237026_n.webp",
+      "assets/images/cases/crystal-animals/713243570_18134198449505563_8210409205181157012_n.webp"
+    ]
+  },
+  {
     "id": "vehicle-set",
     "category": "Atomic Heart / Vehicle Art",
     "title": "Atomic Heart — Vehicle Assets",
@@ -94,6 +154,42 @@ window.PORTFOLIO_CASES = [
     ]
   },
   {
+    "id": "moskvich-vehicle-assets",
+    "category": "Atomic Heart / Vehicle Art",
+    "title": "Atomic Heart — автомобили Москвич",
+    "cover": "assets/images/cases/moskvich-vehicle/HighresScreenshot01243.png",
+    "summary": "Полный цикл работы с Москвичами: оптимизация, чистка material slots, layered/tiled материалы, vertex color, текстуры и Blueprint-варианты.",
+    "role": "Полный цикл работы с ассетами Москвичей: урезание полигонажа, оптимизация material slots, layered/tiled material system, vertex color для селектирования/масок, детализация текстур и Blueprint-сборки с открытыми/закрытыми дверьми и разными цветами.",
+    "description": "Работал над vehicle assets Москвичей для Atomic Heart. В задачу входила пересборка и оптимизация ассетов, урезание полигонажа где это было нужно, чистка material slots, настройка layered/tiled material system, подготовка vertex color для селектирования и управления масками в layered material, финальная детализация текстур, грязь, потёртости, ржавчина, стекло и материалы интерьера. Также собирал Blueprint-варианты: с открытыми дверьми, с закрытыми дверьми и в разных цветовых вариантах.",
+    "process": [
+      "Пересборка структуры ассетов Москвичей под production",
+      "Урезание полигонажа там, где это было нужно",
+      "Оптимизация material slots и упрощение структуры материалов",
+      "Настройка layered/tiled material system для вариативности поверхностей",
+      "Подготовка vertex color для селектирования и управления масками в layered material",
+      "Детализация текстур: царапины, грязь, ржавчина, потёртости, стекло и интерьер",
+      "Blueprint-сборки вариантов с открытыми/закрытыми дверьми и разными цветами",
+      "Финальная подготовка production-ready ассетов для Unreal Engine"
+    ],
+    "tools": [
+      "Maya",
+      "Substance Painter",
+      "Unreal Engine"
+    ],
+    "images": [
+      "assets/images/cases/moskvich-vehicle/HighresScreenshot01243.png",
+      "assets/images/cases/moskvich-vehicle/HighresScreenshot01244.png",
+      "assets/images/cases/moskvich-vehicle/HighresScreenshot01245.png",
+      "assets/images/cases/moskvich-vehicle/HighresScreenshot01246.png",
+      "assets/images/cases/moskvich-vehicle/HighresScreenshot01247.png",
+      "assets/images/cases/moskvich-vehicle/HighresScreenshot01250.png",
+      "assets/images/cases/moskvich-vehicle/HighresScreenshot01249.png",
+      "assets/images/cases/moskvich-vehicle/HighresScreenshot01226.png",
+      "assets/images/cases/moskvich-vehicle/HighresScreenshot01224.png",
+      "assets/images/cases/moskvich-vehicle/HighresScreenshot01233.png"
+    ]
+  },
+  {
     "id": "hogweed-workshop",
     "category": "Atomic Heart / Blueprint Prefab",
     "title": "Atomic Heart — цех с борщевиком",
@@ -119,6 +215,37 @@ window.PORTFOLIO_CASES = [
       "assets/images/cases/hogweed-workshop/714522246_18134380375505563_8153811156261293247_n.jpg",
       "assets/images/cases/hogweed-workshop/717536019_18134380384505563_3140187856423994821_n.jpg",
       "assets/images/cases/hogweed-workshop/716370393_18134380366505563_1979785796264724878_n.jpg"
+    ]
+  },
+  {
+    "id": "hogweed-level-dressing",
+    "category": "Atomic Heart / Organic Level Dressing",
+    "title": "Atomic Heart — цех с борщевиком / органическое оформление уровня",
+    "cover": "assets/images/cases/hogweed-level-dressing/hogweed_level_dressing_01.jpg",
+    "summary": "Органическое оформление уровня с борщевиком: Blueprint-сборки, foliage-инстансинг и расстановка органики по локации, включая вагонетки за стеклом.",
+    "role": "Засечивал / оформлял уровень органикой, собирал Blueprint/Prefab-блоки, раскидывал органические элементы по локации и настраивал instanced foliage-композиции вокруг вагонеток за стеклом и цеховых зон.",
+    "description": "Работал над уровнем с борщевиком / органическим заражением для Atomic Heart. Моя часть включала оформление локации органикой, Blueprint/Prefab-сборки, foliage-инстансинг, раскидывание органических разрастаний по стенам, потолку и цеховым зонам, а также композиции вокруг вагонеток за стеклом, пропсов и индустриальных элементов. Задача была сделать уровень заросшим, заражённым и готовым для production, сохранив модульность органического слоя для сборки локации.",
+    "process": [
+      "Оформление уровня органическими разрастаниями и полимерной растительностью",
+      "Сборка переиспользуемых Blueprint/Prefab-блоков для локации",
+      "Настройка instanced foliage-композиций внутри Blueprint",
+      "Раскидывание органических масс по стенам, потолку и цеховым зонам",
+      "Интеграция вагонеток за стеклом и окружения в органическую композицию",
+      "Подготовка модульных organic-блоков для UE4 level production"
+    ],
+    "tools": [
+      "Maya",
+      "ZBrush",
+      "Houdini",
+      "UE4"
+    ],
+    "images": [
+      "assets/images/cases/hogweed-level-dressing/hogweed_level_dressing_01.jpg",
+      "assets/images/cases/hogweed-level-dressing/hogweed_level_dressing_02.jpg",
+      "assets/images/cases/hogweed-level-dressing/hogweed_level_dressing_03.jpg",
+      "assets/images/cases/hogweed-level-dressing/hogweed_level_dressing_04.jpg",
+      "assets/images/cases/hogweed-level-dressing/hogweed_level_dressing_05.jpg",
+      "assets/images/cases/hogweed-level-dressing/hogweed_level_dressing_06.jpg"
     ]
   },
   {
