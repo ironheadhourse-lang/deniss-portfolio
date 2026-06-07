@@ -510,3 +510,46 @@ h3 {
   .image-viewer-prev { left: 10px; }
   .image-viewer-next { right: 10px; }
 }
+
+
+/* v17 mobile-safe image fitting: prevents portfolio screenshots from being cropped on phones */
+@media (max-width: 900px) {
+  .work-image {
+    min-height: 0 !important;
+    aspect-ratio: 16 / 9;
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    background-color: #080808;
+  }
+  .gallery img,
+  .gallery img.wide {
+    height: auto !important;
+    max-height: none !important;
+    aspect-ratio: auto;
+    object-fit: contain !important;
+  }
+  .case-card {
+    min-height: 0 !important;
+    aspect-ratio: 16 / 10;
+  }
+  .case-card img {
+    height: 100% !important;
+    min-height: 0 !important;
+    object-fit: contain !important;
+    background: #080808;
+  }
+  .case-card-overlay {
+    background: linear-gradient(to top, rgba(0,0,0,.94) 0%, rgba(0,0,0,.55) 44%, rgba(0,0,0,.10) 100%);
+  }
+  .case-modal-hero img,
+  .case-modal-hero .case-image-button img,
+  .case-modal-gallery img,
+  .case-modal-gallery .case-image-button img {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: 68dvh !important;
+    object-fit: contain !important;
+    background: #080808;
+  }
+}

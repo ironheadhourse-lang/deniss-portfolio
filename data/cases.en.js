@@ -90,6 +90,38 @@ window.PORTFOLIO_CASES = [
     ]
   },
   {
+    "id": "zil-truck-detailed-assets",
+    "category": "Atomic Heart / Vehicle Art",
+    "title": "Atomic Heart — ZIL Truck Detailed Assets",
+    "cover": "assets/images/cases/zil-truck-detailed/zil_truck_detailed_01.webp",
+    "summary": "Detailed ZIL truck variants: material optimization, layered/tiled texturing, vertex color masks, dirt, wear, glass and Blueprint setup.",
+    "role": "Reworked detailed ZIL truck assets: polygon cleanup where needed, material slot optimization, layered/tiled material setup, vertex color preparation for selection/mask control, texture detailing and Blueprint variants.",
+    "description": "Worked on detailed ZIL truck vehicle assets for Atomic Heart as part of the production vehicle set. My contribution included asset rework and optimization, polygon reduction where needed, material slot cleanup, layered/tiled material setup, vertex color preparation for selection and mask control inside the layered material system, dirt/wear/rust breakup, glass and interior materials, and final Unreal Engine setup. Built Blueprint variants and prepared vehicle versions for level use.",
+    "process": [
+      "Reworked detailed ZIL truck asset variants for production use",
+      "Reduced polygon count where needed and cleaned asset structure",
+      "Optimized material slots and simplified material layout",
+      "Set up layered/tiled material logic for surface variation",
+      "Prepared vertex colors for selection and mask control",
+      "Detailed textures: paint wear, dirt, rust, scratches, glass and interior surfaces",
+      "Prepared Blueprint variants and final Unreal Engine setup"
+    ],
+    "tools": [
+      "Maya",
+      "Substance Painter",
+      "Unreal Engine"
+    ],
+    "images": [
+      "assets/images/cases/zil-truck-detailed/zil_truck_detailed_01.webp",
+      "assets/images/cases/zil-truck-detailed/zil_truck_detailed_02.webp",
+      "assets/images/cases/zil-truck-detailed/zil_truck_detailed_03.webp",
+      "assets/images/cases/zil-truck-detailed/zil_truck_detailed_04.webp",
+      "assets/images/cases/zil-truck-detailed/zil_truck_detailed_05.webp",
+      "assets/images/cases/zil-truck-detailed/zil_truck_detailed_06.webp",
+      "assets/images/cases/zil-truck-detailed/zil_truck_detailed_07.webp"
+    ]
+  },
+  {
     "id": "fire-truck-zil",
     "category": "Atomic Heart / Vehicle Art",
     "title": "Atomic Heart — Fire Truck ZIL Asset",
@@ -192,7 +224,7 @@ window.PORTFOLIO_CASES = [
   {
     "id": "hogweed-workshop",
     "category": "Atomic Heart / Blueprint Prefab",
-    "title": "Atomic Heart — Hogweed Workshop Area",
+    "title": "Vavilov Complex — Hogweed Workshop Area",
     "cover": "assets/images/cases/hogweed-workshop/717536019_18134380384505563_3140187856423994821_n.webp",
     "summary": "Blueprint/Prefab wall assemblies with organic masses and polymer growth.",
     "role": "Visual idea development, modeling, decals, materials, textures and prefab assembly.",
@@ -220,11 +252,11 @@ window.PORTFOLIO_CASES = [
   {
     "id": "hogweed-level-dressing",
     "category": "Atomic Heart / Organic Level Dressing",
-    "title": "Atomic Heart — Hogweed Workshop Level Dressing",
+    "title": "Vavilov Complex — Hogweed Workshop Level Dressing",
     "cover": "assets/images/cases/hogweed-level-dressing/hogweed_level_dressing_01.webp",
     "summary": "Organic level dressing for the hogweed workshop area: Blueprint assemblies, foliage instancing and location dressing with glass wagons and polymer overgrowth.",
     "role": "Dressed the level with organic growth, built Blueprint/Prefab assemblies, distributed organic elements through the location, and set up instanced foliage compositions around glass wagons and workshop spaces.",
-    "description": "Worked on the hogweed workshop / organic overgrowth area for Atomic Heart. My contribution included level dressing with organic forms, Blueprint/Prefab assemblies, foliage instancing, scattering organic growth across the location, and building compositions around glass wagons, workshop props and industrial spaces. The goal was to make the location feel infected, overgrown and production-ready while keeping the organic layer modular and usable for level assembly.",
+    "description": "Worked on the hogweed workshop / organic overgrowth area for the Vavilov Complex in Atomic Heart. My contribution included level dressing with organic forms, Blueprint/Prefab assemblies, foliage instancing, scattering organic growth across the location, and building compositions around glass wagons, workshop props and industrial spaces. The goal was to make the location feel infected, overgrown and production-ready while keeping the organic layer modular and usable for level assembly.",
     "process": [
       "Dressed the level with organic growth and polymer vegetation",
       "Built reusable Blueprint/Prefab assemblies for location use",
@@ -251,8 +283,8 @@ window.PORTFOLIO_CASES = [
   {
     "id": "polymer-shelves",
     "category": "Atomic Heart / Blueprint Prefab",
-    "title": "Pavlov Complex — Polymer Plant Shelf Assemblies",
-    "cover": "assets/images/cases/polymer-shelves/711588397_18134375665505563_8527406626071298707_n.webp",
+    "title": "Vavilov Complex — Polymer Plant Shelf Assemblies",
+    "cover": "assets/images/cases/polymer-shelves/polymer_shelves_01.webp",
     "summary": "Modular shelf assemblies with polymer plants, glass containers and organic vegetation.",
     "role": "Blueprint/Prefab shelf assembly, organic vegetation composition, modular environment block preparation.",
     "description": "Created Blueprint/Prefab shelf assemblies with polymer plants, glass containers and organic vegetation. These modular blocks were prepared for level designers to use in the environment.",
@@ -270,19 +302,21 @@ window.PORTFOLIO_CASES = [
       "UE4"
     ],
     "images": [
-      "assets/images/cases/polymer-shelves/711588397_18134375665505563_8527406626071298707_n.webp",
-      "assets/images/cases/polymer-shelves/716590935_18134375614505563_1156517231565033611_n.webp",
-      "assets/images/cases/polymer-shelves/717755104_18134375647505563_5821686919304468622_n.webp",
-      "assets/images/cases/polymer-shelves/717115780_18134375629505563_1675725774880426239_n.webp",
-      "assets/images/cases/polymer-shelves/717419356_18134375650505563_2102150524918571622_n.webp",
-      "assets/images/cases/polymer-shelves/714852604_18134375671505563_5891837887961250986_n.webp",
-      "assets/images/cases/polymer-shelves/717129250_18134375632505563_3807477820458952961_n.webp"
+      "assets/images/cases/polymer-shelves/polymer_shelves_01.webp",
+      "assets/images/cases/polymer-shelves/polymer_shelves_02.webp",
+      "assets/images/cases/polymer-shelves/polymer_shelves_03.webp",
+      "assets/images/cases/polymer-shelves/polymer_shelves_04.webp",
+      "assets/images/cases/polymer-shelves/polymer_shelves_05.webp",
+      "assets/images/cases/polymer-shelves/polymer_shelves_06.webp",
+      "assets/images/cases/polymer-shelves/polymer_shelves_07.webp",
+      "assets/images/cases/polymer-shelves/polymer_shelves_08.webp",
+      "assets/images/cases/polymer-shelves/polymer_shelves_09.webp"
     ]
   },
   {
     "id": "polymer-plant-prefabs",
     "category": "Atomic Heart / Blueprint Prefab",
-    "title": "Pavlov Complex — Polymer Plant Blueprint Prefabs",
+    "title": "Vavilov Complex — Polymer Plant Blueprint Prefabs",
     "cover": "assets/images/cases/polymer-plant-prefabs/717582181_18134374156505563_2129037701514423256_n.webp",
     "summary": "Blueprint/Prefab assemblies with polymer plants, foliage instancing, setup and optimization.",
     "role": "Visual idea, plant overgrowth, modeling, foliage instancing, final prefab assembly and optimization.",
@@ -306,7 +340,13 @@ window.PORTFOLIO_CASES = [
       "assets/images/cases/polymer-plant-prefabs/717582181_18134374156505563_2129037701514423256_n.webp",
       "assets/images/cases/polymer-plant-prefabs/717140064_18134374171505563_2727250278638867185_n.webp",
       "assets/images/cases/polymer-plant-prefabs/711680057_18134374147505563_6110255919350044454_n.webp",
-      "assets/images/cases/polymer-plant-prefabs/714759438_18134374174505563_5006065072775468160_n.webp"
+      "assets/images/cases/polymer-plant-prefabs/714759438_18134374174505563_5006065072775468160_n.webp",
+      "assets/images/cases/polymer-plant-prefabs/vavilov_polymer_prefab_extra_01.webp",
+      "assets/images/cases/polymer-plant-prefabs/vavilov_polymer_prefab_extra_02.webp",
+      "assets/images/cases/polymer-plant-prefabs/vavilov_polymer_prefab_extra_03.webp",
+      "assets/images/cases/polymer-plant-prefabs/vavilov_polymer_prefab_extra_04.webp",
+      "assets/images/cases/polymer-plant-prefabs/vavilov_polymer_prefab_extra_05.webp",
+      "assets/images/cases/polymer-plant-prefabs/vavilov_polymer_prefab_extra_06.webp"
     ]
   },
   {
@@ -314,15 +354,15 @@ window.PORTFOLIO_CASES = [
     "category": "Atomic Heart / Organic Assembly",
     "title": "Pavlov Complex — Failed Experiment Assemblies",
     "cover": "assets/images/cases/failed-experiments/714852600_18134370853505563_5677363720672455584_n.webp",
-    "summary": "Organic assemblies with red polymer, biomass, bodies, decals and materials for failed experiment scenes.",
+    "summary": "Organic assemblies with red polymer, biomass, bodies, decals and materials for failed experiment and surgery lab scenes.",
     "role": "Organic layer, red polymer, biomass, decals, materials and final visual setup around existing props.",
-    "description": "Created Blueprint/Prefab organic assemblies with red polymer, biomass, bodies, decals, and materials for failed experiment scenes. Bathtub / capsule props were made by other artists; I built the organic layer, red polymer, biomass, and final visual setup around them.",
+    "description": "Created Blueprint/Prefab organic assemblies with red polymer, biomass, bodies, decals, and materials for failed experiment scenes in the Pavlov Complex. Bathtub / capsule props were made by other artists; I built the organic layer, red polymer, biomass, body integration, decal pass and final visual setup around them, including additional surgery-lab compositions and glass capsule scenes.",
     "process": [
-      "Built red polymer and biomass layer",
-      "Composed bodies and organic storytelling elements",
-      "Created decals and material treatment",
-      "Integrated organic elements around existing props",
-      "Prepared final scene-ready prefab setup"
+      "Built red polymer and biomass layers around existing medical props",
+      "Composed bodies, surgery-lab elements and organic storytelling details",
+      "Created decals, blood/polymer breakup and material treatment",
+      "Integrated organic forms inside and around capsules, bathtubs and lab equipment",
+      "Prepared final scene-ready Blueprint/Prefab setups for production use"
     ],
     "tools": [
       "Maya",
@@ -335,7 +375,158 @@ window.PORTFOLIO_CASES = [
       "assets/images/cases/failed-experiments/717286966_18134370877505563_1471382775056920652_n.webp",
       "assets/images/cases/failed-experiments/717215512_18134370850505563_2668051168799877804_n.webp",
       "assets/images/cases/failed-experiments/717228204_18134370880505563_6101384235535382513_n.webp",
-      "assets/images/cases/failed-experiments/715405907_18134370868505563_2451445692231367746_n.webp"
+      "assets/images/cases/failed-experiments/715405907_18134370868505563_2451445692231367746_n.webp",
+      "assets/images/cases/failed-experiments/failed_experiments_detail_01.webp",
+      "assets/images/cases/failed-experiments/failed_experiments_detail_02.webp",
+      "assets/images/cases/failed-experiments/failed_experiments_detail_03.webp",
+      "assets/images/cases/failed-experiments/failed_experiments_detail_04.webp",
+      "assets/images/cases/failed-experiments/failed_experiments_detail_05.webp",
+      "assets/images/cases/failed-experiments/failed_experiments_detail_06.webp"
+    ]
+  }
+  ,{
+    "id": "polymer-wagons",
+    "category": "Atomic Heart / Blueprint Prefab",
+    "title": "Vavilov Complex — Polymer Plant Wagon Assemblies",
+    "cover": "assets/images/cases/polymer-wagons/polymer_wagons_01.webp",
+    "summary": "Separate wagon Blueprint assemblies with vegetation, liquid polymer and instanced foliage inside glass transport capsules.",
+    "role": "Blueprint assembly of the wagon units, vegetation composition, liquid polymer setup, foliage instancing inside the wagons and final optimization for level use.",
+    "description": "Created separate Blueprint/Prefab wagon assemblies for the Vavilov Complex plant / polymer area in Atomic Heart. This work focused on the glass wagon units: vegetation growth, liquid polymer, internal foliage instancing, composition of plant masses inside the capsules, and final assembly/optimization so the wagons could be reused in the level as modular environment pieces.",
+    "process": [
+      "Built separate Blueprint wagon assemblies for the location",
+      "Composed vegetation and organic growth inside the glass wagons",
+      "Set up liquid polymer treatment and internal scene composition",
+      "Used instanced foliage inside the wagon units for dense plant variation",
+      "Prepared modular variants and optimized the assemblies for UE4 level production"
+    ],
+    "tools": [
+      "Maya",
+      "ZBrush",
+      "Houdini",
+      "UE4"
+    ],
+    "images": [
+      "assets/images/cases/polymer-wagons/polymer_wagons_01.webp",
+      "assets/images/cases/polymer-wagons/polymer_wagons_02.webp",
+      "assets/images/cases/polymer-wagons/polymer_wagons_03.webp",
+      "assets/images/cases/polymer-wagons/polymer_wagons_04.webp",
+      "assets/images/cases/polymer-wagons/polymer_wagons_05.webp",
+      "assets/images/cases/polymer-wagons/polymer_wagons_06.webp",
+      "assets/images/cases/polymer-wagons/polymer_wagons_07.webp",
+      "assets/images/cases/polymer-wagons/polymer_wagons_08.webp"
+    ]
+  }
+  ,{
+    "id": "vavilov-animal-baths",
+    "category": "Atomic Heart / Blueprint Prefab",
+    "title": "Vavilov Complex — Animal Bath Blueprint Assemblies",
+    "cover": "assets/images/cases/vavilov-animal-baths/vavilov_animal_baths_01.webp",
+    "summary": "Separate Blueprint bath/capsule assemblies with animals, algae, organic fill and liquid treatment for the Vavilov Complex.",
+    "role": "Blueprint assembly of the animal bath units, setup of organic fill and algae, animal integration, composition inside the baths and final optimization for level production.",
+    "description": "Created separate Blueprint/Prefab bath assemblies for the Vavilov Complex in Atomic Heart. I assembled the animal baths/capsules, filled them with organic content, algae and water vegetation, and integrated the animals inside the tubs. This set included cow, chicken and pig bath setups, with scene composition, organic dressing and optimization so the assemblies could be reused in the location.",
+    "process": [
+      "Built separate Blueprint bath / capsule assemblies for the location",
+      "Filled the baths with organic content, algae and underwater vegetation",
+      "Integrated animals inside the tubs, including cow, chicken and pig setups",
+      "Composed liquid, visibility and interior dressing for the glass baths",
+      "Prepared reusable modular variants and optimized the assemblies for UE4 production"
+    ],
+    "tools": [
+      "Maya",
+      "ZBrush",
+      "Houdini",
+      "UE4"
+    ],
+    "images": [
+      "assets/images/cases/vavilov-animal-baths/vavilov_animal_baths_01.webp",
+      "assets/images/cases/vavilov-animal-baths/vavilov_animal_baths_02.webp",
+      "assets/images/cases/vavilov-animal-baths/vavilov_animal_baths_03.webp",
+      "assets/images/cases/vavilov-animal-baths/vavilov_animal_baths_04.webp",
+      "assets/images/cases/vavilov-animal-baths/vavilov_animal_baths_05.webp",
+      "assets/images/cases/vavilov-animal-baths/vavilov_animal_baths_06.webp",
+      "assets/images/cases/vavilov-animal-baths/vavilov_animal_baths_07.webp",
+      "assets/images/cases/vavilov-animal-baths/vavilov_animal_baths_08.webp",
+      "assets/images/cases/vavilov-animal-baths/vavilov_animal_baths_09.webp",
+      "assets/images/cases/vavilov-animal-baths/vavilov_animal_baths_10.webp",
+      "assets/images/cases/vavilov-animal-baths/vavilov_animal_baths_11.webp"
+    ]
+  }
+  ,{
+    "id": "vavilov-mutated-fruit-plants",
+    "category": "Atomic Heart / Blueprint Prefab",
+    "title": "Vavilov Complex — Mutated Fruit Plant Blueprint Assemblies",
+    "cover": "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_02.webp",
+    "summary": "Separate Blueprint assemblies of mutated fruit plants with organic forms, instanced leaves, instanced fruits and reusable packed setups.",
+    "role": "Creation of the mutated organic forms, plant shaping, foliage and fruit instancing, assembly packaging into Blueprints/Prefabs and optimization for production use.",
+    "description": "Created a separate set of mutated fruit plant assemblies for the Vavilov Complex in Atomic Heart. My work included building the organic plant forms, shaping the mutated growth, setting up instanced leaves and instanced fruits, and packaging the final results into reusable Blueprint/Prefab assemblies. The goal was to create rich fruit-bearing mutated plants that could be placed efficiently in the location as modular environment content.",
+    "process": [
+      "Built the organic mutated plant forms and overall silhouette",
+      "Shaped the growth structure and branching for fruit-bearing variants",
+      "Set up instanced leaves for dense and efficient foliage variation",
+      "Set up instanced fruits and integrated them into the plant assemblies",
+      "Packed the results into reusable Blueprint / Prefab assemblies and optimized them for UE4 production"
+    ],
+    "tools": [
+      "Maya",
+      "ZBrush",
+      "Houdini",
+      "UE4"
+    ],
+    "images": [
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_01.webp",
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_02.webp",
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_03.webp",
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_04.webp",
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_05.webp",
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_06.webp",
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_07.webp",
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_08.webp",
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_09.webp",
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_10.webp",
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_11.webp",
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_12.webp",
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_13.webp",
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_14.webp",
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_15.webp",
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_16.webp",
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_17.webp",
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_18.webp",
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_19.webp"
+    ]
+  }
+
+  ,{
+    "id": "polymer-tunnels",
+    "category": "Atomic Heart / Blueprint Prefab",
+    "title": "Atomic Heart — Polymer Tunnel Blueprint Assemblies",
+    "cover": "assets/images/cases/polymer-tunnels/polymer_tunnels_02.webp",
+    "summary": "Blueprint/Prefab polymer tunnel assemblies with 3D modeling, UV work, material setup and integration of algae and supporting assets.",
+    "role": "3D modeling of the tunnel modules, UV unwrapping, material setup, integration of algae and supporting assets, and final packaging into reusable Blueprint assemblies.",
+    "description": "Created Blueprint/Prefab polymer tunnel assemblies for Atomic Heart. The work included building the 3D tunnel modules, preparing the UVs, assigning and tuning materials, integrating algae and other supporting assets, and assembling the final reusable Blueprint setups for in-game use.",
+    "process": [
+      "Built the 3D tunnel modules and overall assembly structure",
+      "Prepared UVs and supported the assets with production-ready unwraps",
+      "Applied and tuned materials for the polymer tunnel surfaces",
+      "Integrated algae and additional supporting assets inside the tunnel space",
+      "Packed the result into reusable Blueprint / Prefab assemblies and optimized them for UE4 production"
+    ],
+    "tools": [
+      "Maya",
+      "ZBrush",
+      "Substance Painter",
+      "UE4"
+    ],
+    "images": [
+      "assets/images/cases/polymer-tunnels/polymer_tunnels_01.webp",
+      "assets/images/cases/polymer-tunnels/polymer_tunnels_02.webp",
+      "assets/images/cases/polymer-tunnels/polymer_tunnels_03.webp",
+      "assets/images/cases/polymer-tunnels/polymer_tunnels_04.webp",
+      "assets/images/cases/polymer-tunnels/polymer_tunnels_05.webp",
+      "assets/images/cases/polymer-tunnels/polymer_tunnels_06.webp",
+      "assets/images/cases/polymer-tunnels/polymer_tunnels_07.webp",
+      "assets/images/cases/polymer-tunnels/polymer_tunnels_08.webp",
+      "assets/images/cases/polymer-tunnels/polymer_tunnels_09.webp",
+      "assets/images/cases/polymer-tunnels/polymer_tunnels_10.webp"
     ]
   }
 ];

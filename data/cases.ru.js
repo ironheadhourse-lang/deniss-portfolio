@@ -90,6 +90,38 @@ window.PORTFOLIO_CASES = [
     ]
   },
   {
+    "id": "zil-truck-detailed-assets",
+    "category": "Atomic Heart / Vehicle Art",
+    "title": "Atomic Heart — детальные ассеты ЗИЛ",
+    "cover": "assets/images/cases/zil-truck-detailed/zil_truck_detailed_01.webp",
+    "summary": "Детальные варианты ЗИЛ: оптимизация материалов, layered/tiled texturing, vertex color masks, грязь, потёртости, стекло и Blueprint setup.",
+    "role": "Пересборка детальных ассетов ЗИЛ: чистка/урезание полигонажа где нужно, оптимизация material slots, layered/tiled material system, vertex color для селектирования и масок, детализация текстур и Blueprint-варианты.",
+    "description": "Работал над детальными ассетами ЗИЛ для Atomic Heart как частью production vehicle set. Моя часть: пересборка и оптимизация ассетов, урезание полигонажа там, где это было нужно, чистка material slots, настройка layered/tiled material system, vertex color для селектирования и управления масками внутри layered material, детализация грязи, потёртостей, ржавчины, царапин, стекла и материалов интерьера, а также финальный сетап под Unreal Engine. Собирал Blueprint-варианты и готовил версии техники для использования на локациях.",
+    "process": [
+      "Пересобирал детальные варианты ЗИЛ под production-задачи",
+      "Чистил структуру ассета и урезал полигонаж там, где это было нужно",
+      "Оптимизировал material slots и упрощал структуру материалов",
+      "Настраивал layered/tiled material system для вариативности поверхности",
+      "Готовил vertex color для селектирования и управления масками",
+      "Детализировал текстуры: покраска, грязь, ржавчина, царапины, стекло и интерьер",
+      "Готовил Blueprint-варианты и финальный Unreal Engine setup"
+    ],
+    "tools": [
+      "Maya",
+      "Substance Painter",
+      "Unreal Engine"
+    ],
+    "images": [
+      "assets/images/cases/zil-truck-detailed/zil_truck_detailed_01.webp",
+      "assets/images/cases/zil-truck-detailed/zil_truck_detailed_02.webp",
+      "assets/images/cases/zil-truck-detailed/zil_truck_detailed_03.webp",
+      "assets/images/cases/zil-truck-detailed/zil_truck_detailed_04.webp",
+      "assets/images/cases/zil-truck-detailed/zil_truck_detailed_05.webp",
+      "assets/images/cases/zil-truck-detailed/zil_truck_detailed_06.webp",
+      "assets/images/cases/zil-truck-detailed/zil_truck_detailed_07.webp"
+    ]
+  },
+  {
     "id": "fire-truck-zil",
     "category": "Atomic Heart / Vehicle Art",
     "title": "Atomic Heart — пожарный ЗИЛ",
@@ -192,7 +224,7 @@ window.PORTFOLIO_CASES = [
   {
     "id": "hogweed-workshop",
     "category": "Atomic Heart / Blueprint Prefab",
-    "title": "Atomic Heart — цех с борщевиком",
+    "title": "Комплекс «Вавилов» — цех с борщевиком",
     "cover": "assets/images/cases/hogweed-workshop/717536019_18134380384505563_3140187856423994821_n.webp",
     "summary": "Blueprint/Prefab-сборки настенных органических масс и полимерных разрастаний.",
     "role": "Визуальная идея, моделинг, декали, материалы, текстуры и prefab-сборка.",
@@ -220,11 +252,11 @@ window.PORTFOLIO_CASES = [
   {
     "id": "hogweed-level-dressing",
     "category": "Atomic Heart / Organic Level Dressing",
-    "title": "Atomic Heart — цех с борщевиком / органическое оформление уровня",
+    "title": "Комплекс «Вавилов» — цех с борщевиком / органическое оформление уровня",
     "cover": "assets/images/cases/hogweed-level-dressing/hogweed_level_dressing_01.webp",
     "summary": "Органическое оформление уровня с борщевиком: Blueprint-сборки, foliage-инстансинг и расстановка органики по локации, включая вагонетки за стеклом.",
     "role": "Засечивал / оформлял уровень органикой, собирал Blueprint/Prefab-блоки, раскидывал органические элементы по локации и настраивал instanced foliage-композиции вокруг вагонеток за стеклом и цеховых зон.",
-    "description": "Работал над уровнем с борщевиком / органическим заражением для Atomic Heart. Моя часть включала оформление локации органикой, Blueprint/Prefab-сборки, foliage-инстансинг, раскидывание органических разрастаний по стенам, потолку и цеховым зонам, а также композиции вокруг вагонеток за стеклом, пропсов и индустриальных элементов. Задача была сделать уровень заросшим, заражённым и готовым для production, сохранив модульность органического слоя для сборки локации.",
+    "description": "Работал над уровнем с борщевиком / органическим заражением для комплекса «Вавилов» в Atomic Heart. Моя часть включала оформление локации органикой, Blueprint/Prefab-сборки, foliage-инстансинг, раскидывание органических разрастаний по стенам, потолку и цеховым зонам, а также композиции вокруг вагонеток за стеклом, пропсов и индустриальных элементов. Задача была сделать уровень заросшим, заражённым и готовым для production, сохранив модульность органического слоя для сборки локации.",
     "process": [
       "Оформление уровня органическими разрастаниями и полимерной растительностью",
       "Сборка переиспользуемых Blueprint/Prefab-блоков для локации",
@@ -251,8 +283,8 @@ window.PORTFOLIO_CASES = [
   {
     "id": "polymer-shelves",
     "category": "Atomic Heart / Blueprint Prefab",
-    "title": "Pavlov Complex — полки с полимерными растениями",
-    "cover": "assets/images/cases/polymer-shelves/711588397_18134375665505563_8527406626071298707_n.webp",
+    "title": "Комплекс «Вавилов» — полки с полимерными растениями",
+    "cover": "assets/images/cases/polymer-shelves/polymer_shelves_01.webp",
     "summary": "Модульные сборки полок с полимерными растениями, колбами и органикой.",
     "role": "Blueprint/Prefab-сборка полок, композиция органики, подготовка модульных блоков окружения.",
     "description": "Делал Blueprint/Prefab-сборки полок с полимерными растениями, колбами и органикой. Модульные блоки готовились для дальнейшей сборки окружения левел-дизайнерами.",
@@ -270,19 +302,21 @@ window.PORTFOLIO_CASES = [
       "UE4"
     ],
     "images": [
-      "assets/images/cases/polymer-shelves/711588397_18134375665505563_8527406626071298707_n.webp",
-      "assets/images/cases/polymer-shelves/716590935_18134375614505563_1156517231565033611_n.webp",
-      "assets/images/cases/polymer-shelves/717755104_18134375647505563_5821686919304468622_n.webp",
-      "assets/images/cases/polymer-shelves/717115780_18134375629505563_1675725774880426239_n.webp",
-      "assets/images/cases/polymer-shelves/717419356_18134375650505563_2102150524918571622_n.webp",
-      "assets/images/cases/polymer-shelves/714852604_18134375671505563_5891837887961250986_n.webp",
-      "assets/images/cases/polymer-shelves/717129250_18134375632505563_3807477820458952961_n.webp"
+      "assets/images/cases/polymer-shelves/polymer_shelves_01.webp",
+      "assets/images/cases/polymer-shelves/polymer_shelves_02.webp",
+      "assets/images/cases/polymer-shelves/polymer_shelves_03.webp",
+      "assets/images/cases/polymer-shelves/polymer_shelves_04.webp",
+      "assets/images/cases/polymer-shelves/polymer_shelves_05.webp",
+      "assets/images/cases/polymer-shelves/polymer_shelves_06.webp",
+      "assets/images/cases/polymer-shelves/polymer_shelves_07.webp",
+      "assets/images/cases/polymer-shelves/polymer_shelves_08.webp",
+      "assets/images/cases/polymer-shelves/polymer_shelves_09.webp"
     ]
   },
   {
     "id": "polymer-plant-prefabs",
     "category": "Atomic Heart / Blueprint Prefab",
-    "title": "Pavlov Complex — Blueprint Prefabs с полимерными растениями",
+    "title": "Комплекс «Вавилов» — Blueprint Prefabs с полимерными растениями",
     "cover": "assets/images/cases/polymer-plant-prefabs/717582181_18134374156505563_2129037701514423256_n.webp",
     "summary": "Blueprint/Prefab-сборки с полимерными растениями: foliage-инстансинг, настройка и оптимизация.",
     "role": "Визуальная идея, растительные разрастания, моделинг, foliage-инстансинг, финальная prefab-сборка и оптимизация.",
@@ -306,7 +340,13 @@ window.PORTFOLIO_CASES = [
       "assets/images/cases/polymer-plant-prefabs/717582181_18134374156505563_2129037701514423256_n.webp",
       "assets/images/cases/polymer-plant-prefabs/717140064_18134374171505563_2727250278638867185_n.webp",
       "assets/images/cases/polymer-plant-prefabs/711680057_18134374147505563_6110255919350044454_n.webp",
-      "assets/images/cases/polymer-plant-prefabs/714759438_18134374174505563_5006065072775468160_n.webp"
+      "assets/images/cases/polymer-plant-prefabs/714759438_18134374174505563_5006065072775468160_n.webp",
+      "assets/images/cases/polymer-plant-prefabs/vavilov_polymer_prefab_extra_01.webp",
+      "assets/images/cases/polymer-plant-prefabs/vavilov_polymer_prefab_extra_02.webp",
+      "assets/images/cases/polymer-plant-prefabs/vavilov_polymer_prefab_extra_03.webp",
+      "assets/images/cases/polymer-plant-prefabs/vavilov_polymer_prefab_extra_04.webp",
+      "assets/images/cases/polymer-plant-prefabs/vavilov_polymer_prefab_extra_05.webp",
+      "assets/images/cases/polymer-plant-prefabs/vavilov_polymer_prefab_extra_06.webp"
     ]
   },
   {
@@ -314,15 +354,15 @@ window.PORTFOLIO_CASES = [
     "category": "Atomic Heart / Organic Assembly",
     "title": "Pavlov Complex — неудавшиеся эксперименты",
     "cover": "assets/images/cases/failed-experiments/714852600_18134370853505563_5677363720672455584_n.webp",
-    "summary": "Органические сборки с красным полимером, биомассой, телами, декалями и материалами.",
+    "summary": "Органические сборки с красным полимером, биомассой, телами, декалями и материалами для сцен неудавшихся экспериментов и хирургических лабораторий.",
     "role": "Органический слой, красный полимер, биомасса, декали, материалы и финальный визуальный сетап вокруг готовых пропсов.",
-    "description": "Делал Blueprint/Prefab-сборки с красным полимером, биомассой, телами, декалями и материалами для сцен неудавшихся экспериментов. Ванны / капсулы были сделаны другими художниками; я собирал вокруг них органический слой, красный полимер, биомассу и финальный визуальный сетап.",
+    "description": "Делал Blueprint/Prefab-сборки с красным полимером, биомассой, телами, декалями и материалами для сцен неудавшихся экспериментов в комплексе «Павлов». Ванны / капсулы были сделаны другими художниками; я собирал вокруг них органический слой, красный полимер, биомассу, интеграцию тел, декальный проход и финальный визуальный сетап, включая дополнительные хирургические лабораторные композиции и сцены с капсулами за стеклом.",
     "process": [
-      "Сборка слоя красного полимера и биомассы",
-      "Композиция тел и organic storytelling элементов",
-      "Декали и настройка материалов",
-      "Интеграция органики вокруг готовых пропсов",
-      "Подготовка финальной scene-ready prefab-сборки"
+      "Сборка красного полимера и биомассы вокруг готовых медицинских пропсов",
+      "Композиция тел, хирургических элементов и organic storytelling деталей",
+      "Декали, blood/polymer breakup и настройка материалов",
+      "Интеграция органических форм внутри и вокруг капсул, ванн и лабораторного оборудования",
+      "Подготовка финальных scene-ready Blueprint/Prefab-сборок для production"
     ],
     "tools": [
       "Maya",
@@ -335,7 +375,158 @@ window.PORTFOLIO_CASES = [
       "assets/images/cases/failed-experiments/717286966_18134370877505563_1471382775056920652_n.webp",
       "assets/images/cases/failed-experiments/717215512_18134370850505563_2668051168799877804_n.webp",
       "assets/images/cases/failed-experiments/717228204_18134370880505563_6101384235535382513_n.webp",
-      "assets/images/cases/failed-experiments/715405907_18134370868505563_2451445692231367746_n.webp"
+      "assets/images/cases/failed-experiments/715405907_18134370868505563_2451445692231367746_n.webp",
+      "assets/images/cases/failed-experiments/failed_experiments_detail_01.webp",
+      "assets/images/cases/failed-experiments/failed_experiments_detail_02.webp",
+      "assets/images/cases/failed-experiments/failed_experiments_detail_03.webp",
+      "assets/images/cases/failed-experiments/failed_experiments_detail_04.webp",
+      "assets/images/cases/failed-experiments/failed_experiments_detail_05.webp",
+      "assets/images/cases/failed-experiments/failed_experiments_detail_06.webp"
+    ]
+  }
+  ,{
+    "id": "polymer-wagons",
+    "category": "Atomic Heart / Blueprint Prefab",
+    "title": "Комплекс «Вавилов» — вагонетки с полимерными растениями",
+    "cover": "assets/images/cases/polymer-wagons/polymer_wagons_01.webp",
+    "summary": "Отдельные Blueprint/Prefab-сборки вагонеток с растительностью, жидким полимером и instanced foliage внутри стеклянных капсул.",
+    "role": "Сборка вагонеток в Blueprint, композиция растительности, настройка жидкого полимера, instanced foliage внутри вагонеток и финальная оптимизация для локации.",
+    "description": "Делал отдельные Blueprint/Prefab-сборки вагонеток для растительной / полимерной зоны комплекса «Вавилов» в Atomic Heart. Здесь основная работа была сосредоточена именно на самих стеклянных вагонетках: растительные разрастания, жидкий полимер, instanced foliage внутри, композиция растительных масс внутри капсул, финальная сборка и оптимизация, чтобы эти вагонетки можно было переиспользовать в локации как модульные environment-блоки.",
+    "process": [
+      "Сборка отдельных Blueprint-вагонеток для локации",
+      "Композиция растительности и органических разрастаний внутри стеклянных вагонеток",
+      "Настройка жидкого полимера и внутренней композиции",
+      "Использование instanced foliage внутри вагонеток для плотной растительной вариативности",
+      "Подготовка модульных вариантов и оптимизация сборок для UE4 level production"
+    ],
+    "tools": [
+      "Maya",
+      "ZBrush",
+      "Houdini",
+      "UE4"
+    ],
+    "images": [
+      "assets/images/cases/polymer-wagons/polymer_wagons_01.webp",
+      "assets/images/cases/polymer-wagons/polymer_wagons_02.webp",
+      "assets/images/cases/polymer-wagons/polymer_wagons_03.webp",
+      "assets/images/cases/polymer-wagons/polymer_wagons_04.webp",
+      "assets/images/cases/polymer-wagons/polymer_wagons_05.webp",
+      "assets/images/cases/polymer-wagons/polymer_wagons_06.webp",
+      "assets/images/cases/polymer-wagons/polymer_wagons_07.webp",
+      "assets/images/cases/polymer-wagons/polymer_wagons_08.webp"
+    ]
+  }
+  ,{
+    "id": "vavilov-animal-baths",
+    "category": "Atomic Heart / Blueprint Prefab",
+    "title": "Комплекс «Вавилов» — Blueprint-сборки ванн для животных",
+    "cover": "assets/images/cases/vavilov-animal-baths/vavilov_animal_baths_01.webp",
+    "summary": "Отдельные Blueprint/Prefab-сборки ванн / капсул с животными, водорослями, органикой и жидкостной средой для комплекса «Вавилов».",
+    "role": "Сборка ванн для животных в Blueprint, настройка органики и водорослей, интеграция животных, внутренняя композиция ванн и финальная оптимизация для локации.",
+    "description": "Делал отдельные Blueprint/Prefab-сборки ванн / капсул для комплекса «Вавилов» в Atomic Heart. Я собирал сами ванны, заполнял их органикой, водорослями и подводной растительностью, а также интегрировал внутрь животных. В эту серию входили сборки с коровами, курицами и свиньями, с последующей композицией сцены, органическим оформлением и оптимизацией, чтобы эти сборки можно было переиспользовать в локации.",
+    "process": [
+      "Сборка отдельных Blueprint-ванн / капсул для локации",
+      "Заполнение ванн органикой, водорослями и подводной растительностью",
+      "Интеграция животных внутрь ванн: коровы, курицы и свиньи",
+      "Настройка жидкой среды, читаемости и внутренней композиции стеклянных ванн",
+      "Подготовка переиспользуемых модульных вариантов и оптимизация сборок для UE4 production"
+    ],
+    "tools": [
+      "Maya",
+      "ZBrush",
+      "Houdini",
+      "UE4"
+    ],
+    "images": [
+      "assets/images/cases/vavilov-animal-baths/vavilov_animal_baths_01.webp",
+      "assets/images/cases/vavilov-animal-baths/vavilov_animal_baths_02.webp",
+      "assets/images/cases/vavilov-animal-baths/vavilov_animal_baths_03.webp",
+      "assets/images/cases/vavilov-animal-baths/vavilov_animal_baths_04.webp",
+      "assets/images/cases/vavilov-animal-baths/vavilov_animal_baths_05.webp",
+      "assets/images/cases/vavilov-animal-baths/vavilov_animal_baths_06.webp",
+      "assets/images/cases/vavilov-animal-baths/vavilov_animal_baths_07.webp",
+      "assets/images/cases/vavilov-animal-baths/vavilov_animal_baths_08.webp",
+      "assets/images/cases/vavilov-animal-baths/vavilov_animal_baths_09.webp",
+      "assets/images/cases/vavilov-animal-baths/vavilov_animal_baths_10.webp",
+      "assets/images/cases/vavilov-animal-baths/vavilov_animal_baths_11.webp"
+    ]
+  }
+  ,{
+    "id": "vavilov-mutated-fruit-plants",
+    "category": "Atomic Heart / Blueprint Prefab",
+    "title": "Комплекс «Вавилов» — Blueprint-сборки мутировавших плодовых растений",
+    "cover": "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_02.webp",
+    "summary": "Отдельные Blueprint-сборки мутировавших плодовых растений: органика, форма, инстанс листьев, инстанс плодов и готовая упаковка в переиспользуемые сборки.",
+    "role": "Создание органической формы мутировавших растений, проработка силуэта, настройка инстанса листьев и плодов, упаковка в Blueprint/Prefab и оптимизация для production use.",
+    "description": "Сделал отдельный набор мутировавших плодовых растений для комплекса «Вавилов» в Atomic Heart. В эту работу входили органика и общая форма растений, построение мутировавшего силуэта, настройка инстанса листьев и инстанса плодов, а также упаковка финальных вариантов в переиспользуемые Blueprint/Prefab-сборки. Целью было собрать выразительные плодовые мутировавшие растения, которые можно эффективно использовать в локации как модульный environment-контент.",
+    "process": [
+      "Собрал органическую форму мутировавших растений и общий силуэт",
+      "Проработал структуру роста и ветвления для плодовых вариантов",
+      "Настроил инстанс листьев для плотной и эффективной растительности",
+      "Настроил инстанс плодов и встроил их в итоговые растительные сборки",
+      "Упаковал результат в переиспользуемые Blueprint / Prefab-сборки и оптимизировал для UE4 production"
+    ],
+    "tools": [
+      "Maya",
+      "ZBrush",
+      "Houdini",
+      "UE4"
+    ],
+    "images": [
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_01.webp",
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_02.webp",
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_03.webp",
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_04.webp",
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_05.webp",
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_06.webp",
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_07.webp",
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_08.webp",
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_09.webp",
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_10.webp",
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_11.webp",
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_12.webp",
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_13.webp",
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_14.webp",
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_15.webp",
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_16.webp",
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_17.webp",
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_18.webp",
+      "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_19.webp"
+    ]
+  }
+
+  ,{
+    "id": "polymer-tunnels",
+    "category": "Atomic Heart / Blueprint Prefab",
+    "title": "Atomic Heart — Blueprint-сборки полимерных туннелей",
+    "cover": "assets/images/cases/polymer-tunnels/polymer_tunnels_02.webp",
+    "summary": "Отдельные Blueprint/Prefab-сборки полимерных туннелей: 3D-моделинг, UV-развёртка, настройка материалов, интеграция водорослей и других вспомогательных ассетов.",
+    "role": "3D-моделинг модулей туннеля, UV-развёртка, накидывание и настройка материалов, интеграция водорослей и других ассетов, а также упаковка результата в переиспользуемые Blueprint-сборки.",
+    "description": "Сделал отдельные Blueprint/Prefab-сборки полимерных туннелей для Atomic Heart. В эту работу входили моделинг самих туннельных модулей, подготовка UV-развёртки, накидывание и настройка материалов, интеграция водорослей и других вспомогательных ассетов, а также сборка финального результата в переиспользуемые Blueprint-сетапы для игры.",
+    "process": [
+      "Собрал 3D-модели туннельных модулей и общую структуру сборки",
+      "Подготовил UV-развёртку для production-ready использования",
+      "Накинул и настроил материалы для поверхностей полимерного туннеля",
+      "Интегрировал водоросли и дополнительные ассеты внутри туннельного пространства",
+      "Упаковал результат в переиспользуемые Blueprint / Prefab-сборки и оптимизировал для UE4 production"
+    ],
+    "tools": [
+      "Maya",
+      "ZBrush",
+      "Substance Painter",
+      "UE4"
+    ],
+    "images": [
+      "assets/images/cases/polymer-tunnels/polymer_tunnels_01.webp",
+      "assets/images/cases/polymer-tunnels/polymer_tunnels_02.webp",
+      "assets/images/cases/polymer-tunnels/polymer_tunnels_03.webp",
+      "assets/images/cases/polymer-tunnels/polymer_tunnels_04.webp",
+      "assets/images/cases/polymer-tunnels/polymer_tunnels_05.webp",
+      "assets/images/cases/polymer-tunnels/polymer_tunnels_06.webp",
+      "assets/images/cases/polymer-tunnels/polymer_tunnels_07.webp",
+      "assets/images/cases/polymer-tunnels/polymer_tunnels_08.webp",
+      "assets/images/cases/polymer-tunnels/polymer_tunnels_09.webp",
+      "assets/images/cases/polymer-tunnels/polymer_tunnels_10.webp"
     ]
   }
 ];
