@@ -383,8 +383,8 @@ window.PORTFOLIO_CASES = [
       "assets/images/cases/failed-experiments/failed_experiments_detail_05.webp",
       "assets/images/cases/failed-experiments/failed_experiments_detail_06.webp"
     ]
-  }
-  ,{
+  },
+  {
     "id": "polymer-wagons",
     "category": "Atomic Heart / Blueprint Prefab",
     "title": "Комплекс «Вавилов» — вагонетки с полимерными растениями",
@@ -415,8 +415,8 @@ window.PORTFOLIO_CASES = [
       "assets/images/cases/polymer-wagons/polymer_wagons_07.webp",
       "assets/images/cases/polymer-wagons/polymer_wagons_08.webp"
     ]
-  }
-  ,{
+  },
+  {
     "id": "vavilov-animal-baths",
     "category": "Atomic Heart / Blueprint Prefab",
     "title": "Комплекс «Вавилов» — Blueprint-сборки ванн для животных",
@@ -450,8 +450,8 @@ window.PORTFOLIO_CASES = [
       "assets/images/cases/vavilov-animal-baths/vavilov_animal_baths_10.webp",
       "assets/images/cases/vavilov-animal-baths/vavilov_animal_baths_11.webp"
     ]
-  }
-  ,{
+  },
+  {
     "id": "vavilov-mutated-fruit-plants",
     "category": "Atomic Heart / Blueprint Prefab",
     "title": "Комплекс «Вавилов» — Blueprint-сборки мутировавших плодовых растений",
@@ -493,9 +493,8 @@ window.PORTFOLIO_CASES = [
       "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_18.webp",
       "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_19.webp"
     ]
-  }
-
-  ,{
+  },
+  {
     "id": "polymer-tunnels",
     "category": "Atomic Heart / Blueprint Prefab",
     "title": "Atomic Heart — Blueprint-сборки полимерных туннелей",
@@ -528,5 +527,149 @@ window.PORTFOLIO_CASES = [
       "assets/images/cases/polymer-tunnels/polymer_tunnels_09.webp",
       "assets/images/cases/polymer-tunnels/polymer_tunnels_10.webp"
     ]
+  },
+  {
+    "id": "optimized-container-props",
+    "category": "Atomic Heart / Prop Art",
+    "title": "Atomic Heart — оптимизированные контейнеры-пропсы",
+    "cover": "assets/images/cases/medical-container-props/medical_container_props_02.webp",
+    "summary": "Отдельные контейнеры / баллоны-пропсы: оптимизация под production, one-material setup, layered material painting, Houdini vertex color ID и детальное старение поверхности.",
+    "role": "Оптимизация контейнеров-пропсов, сокращение material slots до одного материала, Houdini vertex-color IDs, layered material painting, детализация текстур и подготовка под UE.",
+    "description": "Отдельный набор контейнеров / баллонов-пропсов для Atomic Heart. Работа включала оптимизацию геометрии и структуры ассета, сокращение material slots до one-material setup там, где это было нужно, добавление через Houdini vertex color как ID/mask для выбора зон layered material, покраску через layered material system, tiled/detail surface breakup, грязь, ржавчину, сколы краски, variation roughness и финальную подготовку в Unreal Engine. Эти пропсы вынесены в отдельный кейс и не смешаны с техническими панелями с вентилями.",
+    "process": [
+      "Оптимизировал отдельные варианты контейнеров и баллонов-пропсов под production-задачи",
+      "Сокращал material slots и готовил one-material layered setup там, где это было возможно",
+      "Добавлял Houdini vertex color как ID/mask данные для выбора material layers и зон поверхности",
+      "Настраивал layered material painting для металла, краски, грязи, ржавчины, подтёков, сколов и потёртостей",
+      "Добавлял tiled/detail texture breakup, roughness variation, grime и локальное старение материала",
+      "Готовил ассеты для Unreal Engine, повторного использования и Blueprint/Prefab-ready workflow"
+    ],
+    "tools": [
+      "Maya",
+      "Houdini",
+      "Substance Painter",
+      "Unreal Engine"
+    ],
+    "images": [
+      "assets/images/cases/medical-container-props/medical_container_props_01.webp",
+      "assets/images/cases/medical-container-props/medical_container_props_02.webp",
+      "assets/images/cases/medical-container-props/medical_container_props_03.webp",
+      "assets/images/cases/medical-container-props/medical_container_props_04.webp",
+      "assets/images/cases/medical-container-props/medical_container_props_05.webp",
+      "assets/images/cases/medical-container-props/medical_container_props_06.webp",
+      "assets/images/cases/medical-container-props/medical_container_props_07.webp",
+      "assets/images/cases/medical-container-props/medical_container_props_08.webp"
+    ],
+    "hashtags": "#AtomicHeart #GameArt #3DArtist #PropArt #EnvironmentArt #UnrealEngine #Houdini #VertexColor #LayeredMaterials #Optimization"
+  },
+  {
+    "id": "technical-valve-props",
+    "category": "Atomic Heart / Technical Prop Art",
+    "title": "Atomic Heart — технические панели с вентилями и пропсы",
+    "cover": "assets/images/cases/technical-valve-props/technical_valve_props_02.webp",
+    "summary": "Отдельные технические ассеты с вентилями, трубами и индустриальными модулями: оптимизация material slots, one-material setup, Houdini vertex color ID и детализация через layered materials.",
+    "role": "Оптимизация технических пропсов, сокращение material slots, Houdini vertex color ID, layered material painting, детализация текстур и подготовка под UE.",
+    "description": "Отдельный набор технических prop-ассетов для Atomic Heart: панели с вентилями, трубные соединения, красные колёса управления, индустриальные корпуса и вспомогательные модули. Это не медицинская сценовая сборка, а самостоятельный набор технических пропсов / environment assets. Работа была сосредоточена на production-оптимизации: сокращение material slots до one-material setup там, где это возможно, добавление через Houdini vertex color как ID/mask для выбора зон layered material, layered painting, tiled/detail texture breakup, грязь, ржавчина, сколы краски, потёртый металл, variation roughness и финальная подготовка для Unreal Engine.",
+    "process": [
+      "Оптимизировал отдельные технические панели с вентилями, трубы, ручки и индустриальные prop-модули",
+      "Сокращал material slots и готовил one-material layered setup там, где это было возможно",
+      "Добавлял Houdini vertex color как ID/mask данные для выбора зон layered material",
+      "Настраивал layered material painting для металла, краски, грязи, ржавчины, подтёков и сколов",
+      "Добавлял tiled/detail texture breakup, roughness variation и локальное старение поверхности",
+      "Готовил ассеты для Unreal Engine, повторного использования и Blueprint/Prefab-ready production"
+    ],
+    "tools": [
+      "Maya",
+      "Houdini",
+      "Substance Painter",
+      "Unreal Engine"
+    ],
+    "images": [
+      "assets/images/cases/technical-valve-props/technical_valve_props_01.webp",
+      "assets/images/cases/technical-valve-props/technical_valve_props_02.webp",
+      "assets/images/cases/technical-valve-props/technical_valve_props_03.webp",
+      "assets/images/cases/technical-valve-props/technical_valve_props_04.webp",
+      "assets/images/cases/technical-valve-props/technical_valve_props_05.webp",
+      "assets/images/cases/technical-valve-props/technical_valve_props_06.webp",
+      "assets/images/cases/technical-valve-props/technical_valve_props_07.webp",
+      "assets/images/cases/technical-valve-props/technical_valve_props_08.webp",
+      "assets/images/cases/technical-valve-props/technical_valve_props_09.webp",
+      "assets/images/cases/technical-valve-props/technical_valve_props_10.webp",
+      "assets/images/cases/technical-valve-props/technical_valve_props_11.webp"
+    ],
+    "hashtags": "#AtomicHeart #GameArt #3DArtist #PropArt #TechnicalArt #EnvironmentArt #UnrealEngine #Houdini #VertexColor #LayeredMaterials #Optimization"
+  },
+  {
+    "id": "puzzle-furnace-props",
+    "category": "Atomic Heart / Technical Prop Art",
+    "title": "Atomic Heart — печь для пазла",
+    "cover": "assets/images/cases/puzzle-furnace-props/puzzle_furnace_02.webp",
+    "summary": "Отдельный ассет печи для пазла: оптимизация под production, one-material setup, layered material painting, Houdini vertex color как ID и детальная проработка износа поверхности.",
+    "role": "Оптимизация ассета печи для пазла, сокращение material slots до одного материала, Houdini vertex-color IDs, layered material painting, детализация текстур и подготовка под Unreal Engine.",
+    "description": "Отдельный технический ассет печи для пазла для Atomic Heart. В работу входили оптимизация геометрии и общей структуры пропса, сокращение material slots до one-material setup там, где это было возможно, подготовка и добавление через Houdini vertex color как ID/mask для выбора зон layered material, layered material painting, tiled/detail texture breakup, грязь, ржавчина, потёки, сколы краски, variation roughness и финальная подготовка для Unreal Engine. Логика задач здесь такая же, как и в других технических пропсах: аккуратная production-оптимизация, система layered materials и текстурная детализация без ломания уже существующей структуры сайта.",
+    "process": [
+      "Оптимизировал отдельный ассет печи для пазла под production-задачи",
+      "Сокращал material slots и готовил one-material layered setup там, где это было возможно",
+      "Добавлял Houdini vertex color как ID/mask данные для выбора material layers и surface zones",
+      "Настраивал layered material painting для металла, краски, грязи, ржавчины, подтёков, сколов и потёртого металла",
+      "Добавлял tiled/detail texture breakup, roughness variation и локальное старение поверхности",
+      "Готовил финальный Unreal Engine setup для переиспользования и production-ready integration"
+    ],
+    "tools": [
+      "Maya",
+      "Houdini",
+      "Substance Painter",
+      "Unreal Engine"
+    ],
+    "images": [
+      "assets/images/cases/puzzle-furnace-props/puzzle_furnace_01.webp",
+      "assets/images/cases/puzzle-furnace-props/puzzle_furnace_02.webp",
+      "assets/images/cases/puzzle-furnace-props/puzzle_furnace_03.webp",
+      "assets/images/cases/puzzle-furnace-props/puzzle_furnace_04.webp",
+      "assets/images/cases/puzzle-furnace-props/puzzle_furnace_05.webp",
+      "assets/images/cases/puzzle-furnace-props/puzzle_furnace_06.webp",
+      "assets/images/cases/puzzle-furnace-props/puzzle_furnace_07.webp",
+      "assets/images/cases/puzzle-furnace-props/puzzle_furnace_08.webp"
+    ],
+    "hashtags": "#AtomicHeart #GameArt #3DArtist #PropArt #TechnicalArt #EnvironmentArt #UnrealEngine #Houdini #VertexColor #LayeredMaterials #Optimization"
+  },
+  {
+    "id": "motorcycle-sidecar-props",
+    "category": "Atomic Heart / Technical Vehicle Prop Art",
+    "title": "Atomic Heart — мотоцикл с коляской",
+    "cover": "assets/images/cases/motorcycle-sidecar-props/motorcycle_sidecar_01.webp",
+    "summary": "Отдельный ассет мотоцикла с коляской: production-оптимизация, layered material setup, материалная и текстурная детализация, а также финальная подготовка под Unreal Engine.",
+    "role": "Оптимизация ассета мотоцикла с коляской, cleanup структуры, сокращение material slots где это требовалось, layered material painting, маски/vertex color для контролируемой вариативности материалов, текстурная детализация и Unreal Engine setup.",
+    "description": "Отдельный технический ассет мотоцикла с коляской для Atomic Heart. В работу входили оптимизация геометрии и подготовка ассета под production, cleanup структуры, сокращение material slots там, где это было необходимо, настройка layered material workflow, работа с масками / vertex color logic для контролируемого распределения material variation, а также текстурная детализация поверхности. Дополнительно были проработаны грязь, потёртости, ржавчина, faded paint, surface breakup и roughness variation, после чего ассет был подготовлен к финальному использованию в Unreal Engine. По подходу и задачам это отдельный технический кейс, выполненный в том же направлении, что и остальные optimized / layered technical prop cases на сайте.",
+    "process": [
+      "Оптимизировал отдельный ассет мотоцикла с коляской под production-задачи",
+      "Чистил структуру ассета и сокращал material slots там, где это было необходимо",
+      "Подготавливал layered material setup для переиспользуемой и контролируемой покраски",
+      "Использовал masks / vertex color logic для распределения material variation и surface zones",
+      "Добавлял грязь, ржавчину, потёртости, faded paint, surface breakup и roughness variation",
+      "Готовил финальный Unreal Engine setup для production-ready integration"
+    ],
+    "tools": [
+      "Maya",
+      "Substance Painter",
+      "Houdini",
+      "Unreal Engine"
+    ],
+    "images": [
+      "assets/images/cases/motorcycle-sidecar-props/motorcycle_sidecar_01.webp",
+      "assets/images/cases/motorcycle-sidecar-props/motorcycle_sidecar_02.webp",
+      "assets/images/cases/motorcycle-sidecar-props/motorcycle_sidecar_03.webp",
+      "assets/images/cases/motorcycle-sidecar-props/motorcycle_sidecar_04.webp",
+      "assets/images/cases/motorcycle-sidecar-props/motorcycle_sidecar_05.webp",
+      "assets/images/cases/motorcycle-sidecar-props/motorcycle_sidecar_06.webp",
+      "assets/images/cases/motorcycle-sidecar-props/motorcycle_sidecar_07.webp",
+      "assets/images/cases/motorcycle-sidecar-props/motorcycle_sidecar_08.webp",
+      "assets/images/cases/motorcycle-sidecar-props/motorcycle_sidecar_09.webp",
+      "assets/images/cases/motorcycle-sidecar-props/motorcycle_sidecar_10.webp",
+      "assets/images/cases/motorcycle-sidecar-props/motorcycle_sidecar_11.webp",
+      "assets/images/cases/motorcycle-sidecar-props/motorcycle_sidecar_12.webp",
+      "assets/images/cases/motorcycle-sidecar-props/motorcycle_sidecar_13.webp"
+    ],
+    "hashtags": "#AtomicHeart #GameArt #3DArtist #VehicleArt #PropArt #TechnicalArt #Optimization #LayeredMaterials #UnrealEngine #GameDev"
   }
 ];

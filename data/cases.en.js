@@ -383,8 +383,8 @@ window.PORTFOLIO_CASES = [
       "assets/images/cases/failed-experiments/failed_experiments_detail_05.webp",
       "assets/images/cases/failed-experiments/failed_experiments_detail_06.webp"
     ]
-  }
-  ,{
+  },
+  {
     "id": "polymer-wagons",
     "category": "Atomic Heart / Blueprint Prefab",
     "title": "Vavilov Complex — Polymer Plant Wagon Assemblies",
@@ -415,8 +415,8 @@ window.PORTFOLIO_CASES = [
       "assets/images/cases/polymer-wagons/polymer_wagons_07.webp",
       "assets/images/cases/polymer-wagons/polymer_wagons_08.webp"
     ]
-  }
-  ,{
+  },
+  {
     "id": "vavilov-animal-baths",
     "category": "Atomic Heart / Blueprint Prefab",
     "title": "Vavilov Complex — Animal Bath Blueprint Assemblies",
@@ -450,8 +450,8 @@ window.PORTFOLIO_CASES = [
       "assets/images/cases/vavilov-animal-baths/vavilov_animal_baths_10.webp",
       "assets/images/cases/vavilov-animal-baths/vavilov_animal_baths_11.webp"
     ]
-  }
-  ,{
+  },
+  {
     "id": "vavilov-mutated-fruit-plants",
     "category": "Atomic Heart / Blueprint Prefab",
     "title": "Vavilov Complex — Mutated Fruit Plant Blueprint Assemblies",
@@ -493,9 +493,8 @@ window.PORTFOLIO_CASES = [
       "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_18.webp",
       "assets/images/cases/vavilov-mutated-fruit-plants/vavilov_mutated_fruit_19.webp"
     ]
-  }
-
-  ,{
+  },
+  {
     "id": "polymer-tunnels",
     "category": "Atomic Heart / Blueprint Prefab",
     "title": "Atomic Heart — Polymer Tunnel Blueprint Assemblies",
@@ -528,5 +527,149 @@ window.PORTFOLIO_CASES = [
       "assets/images/cases/polymer-tunnels/polymer_tunnels_09.webp",
       "assets/images/cases/polymer-tunnels/polymer_tunnels_10.webp"
     ]
+  },
+  {
+    "id": "optimized-container-props",
+    "category": "Atomic Heart / Prop Art",
+    "title": "Atomic Heart — Optimized Container Props",
+    "cover": "assets/images/cases/medical-container-props/medical_container_props_02.webp",
+    "summary": "Separate container / canister prop assets optimized for production: one-material setup, layered material painting, Houdini vertex-color IDs and detailed wear.",
+    "role": "Container prop optimization, material-slot reduction to a single material setup, Houdini vertex-color IDs, layered material painting, texture detailing and UE-ready preparation.",
+    "description": "A separate set of Atomic Heart container / canister prop assets. The work included optimization of prop geometry and asset structure, material-slot reduction down to a one-material setup where needed, Houdini vertex color as ID/mask data for selecting layered material zones, layered material painting, tiled/detail surface breakup, dirt, rust, chipped paint, roughness variation and final Unreal Engine preparation. These props are kept as their own asset case, separate from the technical valve-panel set.",
+    "process": [
+      "Optimized separate container and canister prop variants for production use",
+      "Reduced material slots and prepared a one-material layered setup where possible",
+      "Added Houdini vertex color as ID/mask data for selecting material layers and surface zones",
+      "Built layered material painting for metal, paint, dirt, rust, leaks, chipped edges and worn surfaces",
+      "Added tiled/detail texture breakup, roughness variation, grime and localized weathering",
+      "Prepared the assets for Unreal Engine use, reusable placement and Blueprint/Prefab-ready workflows"
+    ],
+    "tools": [
+      "Maya",
+      "Houdini",
+      "Substance Painter",
+      "Unreal Engine"
+    ],
+    "images": [
+      "assets/images/cases/medical-container-props/medical_container_props_01.webp",
+      "assets/images/cases/medical-container-props/medical_container_props_02.webp",
+      "assets/images/cases/medical-container-props/medical_container_props_03.webp",
+      "assets/images/cases/medical-container-props/medical_container_props_04.webp",
+      "assets/images/cases/medical-container-props/medical_container_props_05.webp",
+      "assets/images/cases/medical-container-props/medical_container_props_06.webp",
+      "assets/images/cases/medical-container-props/medical_container_props_07.webp",
+      "assets/images/cases/medical-container-props/medical_container_props_08.webp"
+    ],
+    "hashtags": "#AtomicHeart #GameArt #3DArtist #PropArt #EnvironmentArt #UnrealEngine #Houdini #VertexColor #LayeredMaterials #Optimization"
+  },
+  {
+    "id": "technical-valve-props",
+    "category": "Atomic Heart / Technical Prop Art",
+    "title": "Atomic Heart — Technical Valve Panel Props",
+    "cover": "assets/images/cases/technical-valve-props/technical_valve_props_02.webp",
+    "summary": "Separate technical valve-panel and industrial prop assets optimized for production: reduced material slots, one-material setup, Houdini vertex-color IDs and layered texture detailing.",
+    "role": "Technical prop optimization, material-slot reduction, Houdini vertex-color ID setup, layered material painting, texture detailing and UE-ready preparation.",
+    "description": "A separate set of Atomic Heart technical prop assets: valve panels, pipe connections, control wheels, industrial housings and support modules. This was not grouped as a medical-container scene assembly; it is a standalone technical prop / environment asset set. The work focused on production optimization, reducing material slots down to a one-material setup where possible, adding Houdini vertex color as ID/mask data for selecting layered material zones, layered painting, tiled/detail texture breakup, dirt, rust, chipped paint, worn metal, roughness variation and final preparation for Unreal Engine use.",
+    "process": [
+      "Optimized separate technical valve-panel props, pipe modules, handles and industrial support assets",
+      "Reduced material slots and prepared a one-material layered setup where possible",
+      "Added Houdini vertex color as ID/mask information for layered material selection",
+      "Built layered material painting for metal, paint, dirt, rust, grime, leaks and chipped edges",
+      "Added tiled/detail texture breakup, roughness variation and localized surface aging",
+      "Prepared the assets for Unreal Engine placement, reuse and Blueprint/Prefab-ready production use"
+    ],
+    "tools": [
+      "Maya",
+      "Houdini",
+      "Substance Painter",
+      "Unreal Engine"
+    ],
+    "images": [
+      "assets/images/cases/technical-valve-props/technical_valve_props_01.webp",
+      "assets/images/cases/technical-valve-props/technical_valve_props_02.webp",
+      "assets/images/cases/technical-valve-props/technical_valve_props_03.webp",
+      "assets/images/cases/technical-valve-props/technical_valve_props_04.webp",
+      "assets/images/cases/technical-valve-props/technical_valve_props_05.webp",
+      "assets/images/cases/technical-valve-props/technical_valve_props_06.webp",
+      "assets/images/cases/technical-valve-props/technical_valve_props_07.webp",
+      "assets/images/cases/technical-valve-props/technical_valve_props_08.webp",
+      "assets/images/cases/technical-valve-props/technical_valve_props_09.webp",
+      "assets/images/cases/technical-valve-props/technical_valve_props_10.webp",
+      "assets/images/cases/technical-valve-props/technical_valve_props_11.webp"
+    ],
+    "hashtags": "#AtomicHeart #GameArt #3DArtist #PropArt #TechnicalArt #EnvironmentArt #UnrealEngine #Houdini #VertexColor #LayeredMaterials #Optimization"
+  },
+  {
+    "id": "puzzle-furnace-props",
+    "category": "Atomic Heart / Technical Prop Art",
+    "title": "Atomic Heart — Puzzle Furnace Prop",
+    "cover": "assets/images/cases/puzzle-furnace-props/puzzle_furnace_02.webp",
+    "summary": "A separate puzzle furnace prop asset optimized for production with a one-material setup, layered material painting, Houdini vertex-color IDs and detailed surface wear.",
+    "role": "Puzzle furnace prop optimization, material-slot reduction to a single-material setup, Houdini vertex-color IDs, layered material painting, texture detailing and Unreal Engine preparation.",
+    "description": "A separate Atomic Heart puzzle furnace prop asset. The work included optimization of the prop geometry and overall asset structure, reducing material slots down to a one-material setup where possible, preparing and adding Houdini vertex color as ID/mask data for selecting layered material zones, layered material painting, tiled/detail texture breakup, dirt, rust, leaks, chipped paint, roughness variation and final Unreal Engine preparation. The task scope matches the other technical prop cases: clean production optimization, layered material workflow and texture detailing, added to the site as its own standalone case.",
+    "process": [
+      "Optimized the separate puzzle furnace prop asset for production use",
+      "Reduced material slots and prepared a one-material layered setup where possible",
+      "Added Houdini vertex color as ID/mask data for selecting material layers and surface zones",
+      "Built layered material painting for metal, paint, dirt, rust, leaks, chipped edges and worn metal",
+      "Added tiled/detail texture breakup, roughness variation and localized surface aging",
+      "Prepared the final Unreal Engine setup for reuse and production-ready integration"
+    ],
+    "tools": [
+      "Maya",
+      "Houdini",
+      "Substance Painter",
+      "Unreal Engine"
+    ],
+    "images": [
+      "assets/images/cases/puzzle-furnace-props/puzzle_furnace_01.webp",
+      "assets/images/cases/puzzle-furnace-props/puzzle_furnace_02.webp",
+      "assets/images/cases/puzzle-furnace-props/puzzle_furnace_03.webp",
+      "assets/images/cases/puzzle-furnace-props/puzzle_furnace_04.webp",
+      "assets/images/cases/puzzle-furnace-props/puzzle_furnace_05.webp",
+      "assets/images/cases/puzzle-furnace-props/puzzle_furnace_06.webp",
+      "assets/images/cases/puzzle-furnace-props/puzzle_furnace_07.webp",
+      "assets/images/cases/puzzle-furnace-props/puzzle_furnace_08.webp"
+    ],
+    "hashtags": "#AtomicHeart #GameArt #3DArtist #PropArt #TechnicalArt #EnvironmentArt #UnrealEngine #Houdini #VertexColor #LayeredMaterials #Optimization"
+  },
+  {
+    "id": "motorcycle-sidecar-props",
+    "category": "Atomic Heart / Technical Vehicle Prop Art",
+    "title": "Atomic Heart — Motorcycle with Sidecar",
+    "cover": "assets/images/cases/motorcycle-sidecar-props/motorcycle_sidecar_01.webp",
+    "summary": "A standalone motorcycle with sidecar asset focused on production optimization, layered material setup, texture detailing and final Unreal Engine preparation.",
+    "role": "Motorcycle with sidecar asset optimization, asset structure cleanup, material-slot reduction where needed, layered material painting, masks / vertex-color based material control, texture detailing and Unreal Engine setup.",
+    "description": "A separate technical motorcycle with sidecar asset for Atomic Heart. The work included geometry optimization and production preparation, asset structure cleanup, reducing material slots where needed, setting up a layered material workflow, working with masks / vertex color logic for controlled material variation, and detailed surface texturing. Additional work included dirt, worn edges, rust, faded paint, surface breakup and roughness variation, followed by final preparation for Unreal Engine. In terms of approach and tasks, this is a standalone technical case aligned with the other optimized / layered technical prop cases on the site.",
+    "process": [
+      "Optimized the standalone motorcycle with sidecar asset for production use",
+      "Cleaned the asset structure and reduced material slots where needed",
+      "Prepared a layered material setup for reusable and controlled surface painting",
+      "Used masks / vertex color logic for material variation and surface-zone control",
+      "Added dirt, rust, wear, faded paint, surface breakup and roughness variation",
+      "Prepared the final Unreal Engine setup for production-ready integration"
+    ],
+    "tools": [
+      "Maya",
+      "Substance Painter",
+      "Houdini",
+      "Unreal Engine"
+    ],
+    "images": [
+      "assets/images/cases/motorcycle-sidecar-props/motorcycle_sidecar_01.webp",
+      "assets/images/cases/motorcycle-sidecar-props/motorcycle_sidecar_02.webp",
+      "assets/images/cases/motorcycle-sidecar-props/motorcycle_sidecar_03.webp",
+      "assets/images/cases/motorcycle-sidecar-props/motorcycle_sidecar_04.webp",
+      "assets/images/cases/motorcycle-sidecar-props/motorcycle_sidecar_05.webp",
+      "assets/images/cases/motorcycle-sidecar-props/motorcycle_sidecar_06.webp",
+      "assets/images/cases/motorcycle-sidecar-props/motorcycle_sidecar_07.webp",
+      "assets/images/cases/motorcycle-sidecar-props/motorcycle_sidecar_08.webp",
+      "assets/images/cases/motorcycle-sidecar-props/motorcycle_sidecar_09.webp",
+      "assets/images/cases/motorcycle-sidecar-props/motorcycle_sidecar_10.webp",
+      "assets/images/cases/motorcycle-sidecar-props/motorcycle_sidecar_11.webp",
+      "assets/images/cases/motorcycle-sidecar-props/motorcycle_sidecar_12.webp",
+      "assets/images/cases/motorcycle-sidecar-props/motorcycle_sidecar_13.webp"
+    ],
+    "hashtags": "#AtomicHeart #GameArt #3DArtist #VehicleArt #PropArt #TechnicalArt #Optimization #LayeredMaterials #UnrealEngine #GameDev"
   }
 ];
