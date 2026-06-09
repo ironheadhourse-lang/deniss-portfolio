@@ -126,7 +126,7 @@ window.PORTFOLIO_CASES = [
     "category": "Atomic Heart / Vehicle Art",
     "title": "Atomic Heart — Fire Truck ZIL Asset",
     "cover": "assets/images/cases/fire-truck-zil/711095600_18134398939505563_479531884618096854_n.webp",
-    "summary": "Reworked the fire truck asset and reduced material slots from 12 to 2.",
+    "summary": "Fire Truck ZIL asset: asset optimization, material-slot reduction, layered material setup, masks, red/white paint detailing, dirt, wear, rust, glass and final texturing.",
     "role": "Asset rework, material slot optimization, masks, dirt/wear/rust, glass and final texturing.",
     "description": "Similar to the bus, I reworked this asset: reduced it from 12 material slots to 2, set up materials, masks, paint detailing, dirt, wear, and final texturing.",
     "process": [
@@ -152,7 +152,46 @@ window.PORTFOLIO_CASES = [
       "assets/images/cases/fire-truck-zil/715450296_18134399023505563_7501036988175187420_n.webp",
       "assets/images/cases/fire-truck-zil/717168780_18134398993505563_7620574955357641028_n.webp",
       "assets/images/cases/fire-truck-zil/717201017_18134399056505563_1569648082877545155_n.webp",
-      "assets/images/cases/fire-truck-zil/717273470_18134398975505563_2985929489040041472_n.webp"
+      "assets/images/cases/fire-truck-zil/717273470_18134398975505563_2985929489040041472_n.webp",
+      "assets/images/cases/fire-truck-zil/fire_truck_zil_extra_01.webp",
+      "assets/images/cases/fire-truck-zil/fire_truck_zil_extra_02.webp",
+      "assets/images/cases/fire-truck-zil/fire_truck_zil_extra_03.webp",
+      "assets/images/cases/fire-truck-zil/fire_truck_zil_extra_04.webp",
+      "assets/images/cases/fire-truck-zil/fire_truck_zil_extra_05.webp"
+    ]
+  },
+  {
+    "id": "zil-prefab-assemblies",
+    "category": "Atomic Heart / Blueprint Prefab",
+    "title": "Atomic Heart — ZIL Blueprint / Prefab Assemblies",
+    "cover": "assets/images/cases/zil-prefab-assemblies/zil_prefab_assemblies_01.webp",
+    "summary": "Reusable ZIL truck Blueprint/Prefab assemblies with different payload variants: logs, covered cargo, body bags, crates, cylinders and overturned crash setups.",
+    "role": "Built reusable ZIL Blueprint/Prefab assemblies, prepared multiple fill variants, arranged story props and set up final scene-ready compositions for level use.",
+    "description": "A separate part of my work on Atomic Heart involved ZIL truck Blueprint/Prefab assemblies built for environment storytelling. I prepared several reusable truck setups with different payloads and states: log transport, covered cargo and body-bag transport, crate and cylinder cargo, and overturned crash variants with scattered props. The work included assembling the vehicle variants, arranging the fillings and surrounding debris, composing readable silhouettes for gameplay spaces, and preparing final reusable setups for level use in Unreal Engine.",
+    "process": [
+      "Built several ZIL Blueprint/Prefab assemblies for level reuse",
+      "Created different fill variants: logs, covered cargo, body bags, crates and cylinders",
+      "Assembled overturned and crashed truck variants with scattered debris",
+      "Arranged composition around the trucks for readable gameplay storytelling",
+      "Prepared reusable Unreal Engine setups for production levels"
+    ],
+    "tools": [
+      "Maya",
+      "Substance Painter",
+      "Unreal Engine"
+    ],
+    "images": [
+      "assets/images/cases/zil-prefab-assemblies/zil_prefab_assemblies_01.webp",
+      "assets/images/cases/zil-prefab-assemblies/zil_prefab_assemblies_02.webp",
+      "assets/images/cases/zil-prefab-assemblies/zil_prefab_assemblies_03.webp",
+      "assets/images/cases/zil-prefab-assemblies/zil_prefab_assemblies_04.webp",
+      "assets/images/cases/zil-prefab-assemblies/zil_prefab_assemblies_05.webp",
+      "assets/images/cases/zil-prefab-assemblies/zil_prefab_assemblies_06.webp",
+      "assets/images/cases/zil-prefab-assemblies/zil_prefab_assemblies_07.webp",
+      "assets/images/cases/zil-prefab-assemblies/zil_prefab_assemblies_08.webp",
+      "assets/images/cases/zil-prefab-assemblies/zil_prefab_assemblies_09.webp",
+      "assets/images/cases/zil-prefab-assemblies/zil_prefab_assemblies_10.webp",
+      "assets/images/cases/zil-prefab-assemblies/zil_prefab_assemblies_11.webp"
     ]
   },
   {

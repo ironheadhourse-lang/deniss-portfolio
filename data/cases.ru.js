@@ -126,7 +126,7 @@ window.PORTFOLIO_CASES = [
     "category": "Atomic Heart / Vehicle Art",
     "title": "Atomic Heart — пожарный ЗИЛ",
     "cover": "assets/images/cases/fire-truck-zil/711095600_18134398939505563_479531884618096854_n.webp",
-    "summary": "Пересобрал ассет пожарного ЗИЛа и сократил материалы с 12 material slots до 2.",
+    "summary": "Пожарный ЗИЛ: оптимизация ассета, сокращение material slots, layered material setup, маски, детализация красно-белой покраски, грязь, потёртости, ржавчина, стекло и финальный текстуринг.",
     "role": "Пересборка ассета, оптимизация material slots, маски, грязь/потёртости/ржавчина, стекло и финальный текстуринг.",
     "description": "Как и автобус, пересобирал ассет: сократил с 12 material slots до 2, настроил материалы, маски, детализацию покраски, грязь, потёртости и финальный текстуринг.",
     "process": [
@@ -152,7 +152,46 @@ window.PORTFOLIO_CASES = [
       "assets/images/cases/fire-truck-zil/715450296_18134399023505563_7501036988175187420_n.webp",
       "assets/images/cases/fire-truck-zil/717168780_18134398993505563_7620574955357641028_n.webp",
       "assets/images/cases/fire-truck-zil/717201017_18134399056505563_1569648082877545155_n.webp",
-      "assets/images/cases/fire-truck-zil/717273470_18134398975505563_2985929489040041472_n.webp"
+      "assets/images/cases/fire-truck-zil/717273470_18134398975505563_2985929489040041472_n.webp",
+      "assets/images/cases/fire-truck-zil/fire_truck_zil_extra_01.webp",
+      "assets/images/cases/fire-truck-zil/fire_truck_zil_extra_02.webp",
+      "assets/images/cases/fire-truck-zil/fire_truck_zil_extra_03.webp",
+      "assets/images/cases/fire-truck-zil/fire_truck_zil_extra_04.webp",
+      "assets/images/cases/fire-truck-zil/fire_truck_zil_extra_05.webp"
+    ]
+  },
+  {
+    "id": "zil-prefab-assemblies",
+    "category": "Atomic Heart / Blueprint Prefab",
+    "title": "Atomic Heart — ZIL Blueprint / Prefab-сборки",
+    "cover": "assets/images/cases/zil-prefab-assemblies/zil_prefab_assemblies_01.webp",
+    "summary": "Отдельные Blueprint/Prefab-сборки ЗИЛов с разным наполнением: брёвна, накрытый груз, тела в мешках, ящики, баллоны и перевёрнутые аварийные варианты.",
+    "role": "Собирал переиспользуемые Blueprint/Prefab-сборки ЗИЛов, настраивал разные варианты наполнения, компоновал сторителлинговые пропсы и готовил финальные scene-ready варианты для уровня.",
+    "description": "Отдельная часть моей работы для Atomic Heart — это Blueprint/Prefab-сборки ЗИЛов для сторителлинга в окружении. Я подготавливал несколько переиспользуемых сетапов грузовиков с разным состоянием и наполнением: перевозка брёвен, закрытый груз / мешки с телами, ящики и баллоны, а также перевёрнутые аварийные варианты с рассыпанным наполнением и дополнительными пропсами вокруг. В задачу входили сборка самих vehicle-вариантов, настройка наполнения, расстановка окружающих элементов, работа над читаемой композицией для геймплейных зон и подготовка итоговых reusable-сборок для Unreal Engine.",
+    "process": [
+      "Собрал несколько Blueprint/Prefab-вариантов ЗИЛов для переиспользования на уровне",
+      "Подготовил разное наполнение: брёвна, накрытый груз, тела в мешках, ящики и баллоны",
+      "Сделал перевёрнутые / аварийные варианты с рассыпанным наполнением и мусором",
+      "Выстроил композицию вокруг грузовиков для читаемого environmental storytelling",
+      "Подготовил финальные reusable-сборки для production use в Unreal Engine"
+    ],
+    "tools": [
+      "Maya",
+      "Substance Painter",
+      "Unreal Engine"
+    ],
+    "images": [
+      "assets/images/cases/zil-prefab-assemblies/zil_prefab_assemblies_01.webp",
+      "assets/images/cases/zil-prefab-assemblies/zil_prefab_assemblies_02.webp",
+      "assets/images/cases/zil-prefab-assemblies/zil_prefab_assemblies_03.webp",
+      "assets/images/cases/zil-prefab-assemblies/zil_prefab_assemblies_04.webp",
+      "assets/images/cases/zil-prefab-assemblies/zil_prefab_assemblies_05.webp",
+      "assets/images/cases/zil-prefab-assemblies/zil_prefab_assemblies_06.webp",
+      "assets/images/cases/zil-prefab-assemblies/zil_prefab_assemblies_07.webp",
+      "assets/images/cases/zil-prefab-assemblies/zil_prefab_assemblies_08.webp",
+      "assets/images/cases/zil-prefab-assemblies/zil_prefab_assemblies_09.webp",
+      "assets/images/cases/zil-prefab-assemblies/zil_prefab_assemblies_10.webp",
+      "assets/images/cases/zil-prefab-assemblies/zil_prefab_assemblies_11.webp"
     ]
   },
   {
