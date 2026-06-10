@@ -86,7 +86,14 @@ window.PORTFOLIO_CASES = [
       "assets/images/cases/vehicle-set/717216140_18134400127505563_6326927957119221439_n.webp",
       "assets/images/cases/vehicle-set/718160981_18134400154505563_5018683988426485392_n.webp",
       "assets/images/cases/vehicle-set/717907707_18134400133505563_2993328534661202614_n.webp",
-      "assets/images/cases/vehicle-set/714852617_18134400100505563_2303170010748423952_n.webp"
+      "assets/images/cases/vehicle-set/714852617_18134400100505563_2303170010748423952_n.webp",
+      "assets/images/cases/vehicle-set/vehicle_set_extra_01.webp",
+      "assets/images/cases/vehicle-set/vehicle_set_extra_02.webp",
+      "assets/images/cases/vehicle-set/vehicle_set_extra_03.webp",
+      "assets/images/cases/vehicle-set/vehicle_set_extra_04.webp",
+      "assets/images/cases/vehicle-set/vehicle_set_extra_05.webp",
+      "assets/images/cases/vehicle-set/vehicle_set_extra_06.webp",
+      "assets/images/cases/vehicle-set/vehicle_set_extra_07.webp"
     ]
   },
   {
@@ -221,7 +228,9 @@ window.PORTFOLIO_CASES = [
       "assets/images/cases/paz-bus/714541667_18134398456505563_789042760662366550_n.webp",
       "assets/images/cases/paz-bus/714852613_18134398444505563_9213146978676218255_n.webp",
       "assets/images/cases/paz-bus/717958882_18134398441505563_91216007980594955_n.webp",
-      "assets/images/cases/paz-bus/717168456_18134398438505563_4287417712264248766_n.webp"
+      "assets/images/cases/paz-bus/717168456_18134398438505563_4287417712264248766_n.webp",
+      "assets/images/cases/paz-bus/paz_bus_interior_extra_01.webp",
+      "assets/images/cases/paz-bus/paz_bus_interior_extra_02.webp"
     ]
   },
   {
@@ -534,6 +543,38 @@ window.PORTFOLIO_CASES = [
     ]
   },
   {
+    "id": "organic-loot-organs",
+    "category": "Atomic Heart / Organic Art",
+    "title": "Atomic Heart — органический лут / органы и скины",
+    "cover": "assets/images/cases/organic-loot-organs/organic_loot_organs_01.webp",
+    "summary": "Органический loot organ asset pack для Atomic Heart: моделинг, текстуринг, оптимизация, разные скины / цветовые варианты и один материал на пак.",
+    "role": "Делал органический лут для игры: моделинг органов, текстуринг, оптимизацию, чистку материалов и подготовку разных skin/color-вариантов в компактном one-material pack workflow.",
+    "description": "Делал набор органического лута / органов для Atomic Heart, включая несколько цветовых skin-вариантов для читаемости в игре. В работу входили органический моделинг, проработка формы, текстуринг влажной пористой поверхности, оптимизация, настройка материалов и упаковка набора в компактный workflow: один материал на пак для production use. Также подготавливал разные скины, чтобы органика читалась как отдельные loot / gameplay items и при этом оставалась эффективной для Unreal Engine.",
+    "process": [
+      "Смоделировал органические loot organ формы для игры",
+      "Подготовил разные цветовые skin-варианты для читаемости",
+      "Сделал текстуринг влажных, пористых и мутировавших органических поверхностей",
+      "Оптимизировал набор ассетов для production use",
+      "Упаковал набор в one-material workflow: один материал на пак для Unreal Engine"
+    ],
+    "tools": [
+      "Maya",
+      "ZBrush",
+      "Substance Painter",
+      "Unreal Engine"
+    ],
+    "images": [
+      "assets/images/cases/organic-loot-organs/organic_loot_organs_01.webp",
+      "assets/images/cases/organic-loot-organs/organic_loot_organs_02.webp",
+      "assets/images/cases/organic-loot-organs/organic_loot_organs_03.webp",
+      "assets/images/cases/organic-loot-organs/organic_loot_organs_04.webp",
+      "assets/images/cases/organic-loot-organs/organic_loot_organs_05.webp",
+      "assets/images/cases/organic-loot-organs/organic_loot_organs_06.webp",
+      "assets/images/cases/organic-loot-organs/organic_loot_organs_07.webp",
+      "assets/images/cases/organic-loot-organs/organic_loot_organs_08.webp"
+    ]
+  },
+  {
     "id": "polymer-tunnels",
     "category": "Atomic Heart / Blueprint Prefab",
     "title": "Atomic Heart — Blueprint-сборки полимерных туннелей",
@@ -710,5 +751,83 @@ window.PORTFOLIO_CASES = [
       "assets/images/cases/motorcycle-sidecar-props/motorcycle_sidecar_13.webp"
     ],
     "hashtags": "#AtomicHeart #GameArt #3DArtist #VehicleArt #PropArt #TechnicalArt #Optimization #LayeredMaterials #UnrealEngine #GameDev"
+  },
+  {
+    "id": "door-assets",
+    "category": "Atomic Heart / Technical Prop Art",
+    "title": "Atomic Heart — дверные ассеты",
+    "cover": "assets/images/cases/door-assets/door_assets_08.webp",
+    "summary": "Отдельный набор дверных ассетов для Atomic Heart: разные виды дверей, оптимизация material slots, one-material setup, vertex color ID для селектирования зон и покраска с текстурной детализацией.",
+    "role": "Оптимизация дверных ассетов, сокращение material slots до одного материала, vertex-color ID для выбора зон, покраска / детализация текстурами и подготовка под Unreal Engine.",
+    "description": "Отдельный набор door-ассетов для Atomic Heart с несколькими техническими вариантами дверей: круглые панельные двери, тяжёлые индустриальные hatch-двери, округлые камерные двери и отдельные модульные элементы. В работу входили production-оптимизация ассетов, сокращение material slots до one-material setup там, где это было возможно, подготовка vertex color как ID / mask данных для селектирования зон layered material, а также финальная покраска и детализация через текстуры. Дополнительно прорабатывались грязь, царапины, сколы краски, износ кромок, variation roughness и финальная подготовка под Unreal Engine.",
+    "process": [
+      "Оптимизировал разные варианты дверных ассетов и технических дверных модулей под production-задачи",
+      "Сокращал material slots и переводил ассеты в one-material setup там, где это было возможно",
+      "Подготавливал vertex color как ID / mask данные для селектирования material zones и контролируемой вариативности поверхности",
+      "Делал покраску и детализацию текстурами через layered material logic: грязь, царапины, сколы краски и износ",
+      "Добавлял tiled/detail texture breakup и roughness variation для лучшей читаемости поверхности вблизи",
+      "Готовил финальные Unreal Engine-ready ассеты для повторного использования и production integration"
+    ],
+    "tools": [
+      "Maya",
+      "Houdini",
+      "Substance Painter",
+      "Unreal Engine"
+    ],
+    "images": [
+      "assets/images/cases/door-assets/door_assets_01.webp",
+      "assets/images/cases/door-assets/door_assets_02.webp",
+      "assets/images/cases/door-assets/door_assets_03.webp",
+      "assets/images/cases/door-assets/door_assets_04.webp",
+      "assets/images/cases/door-assets/door_assets_05.webp",
+      "assets/images/cases/door-assets/door_assets_06.webp",
+      "assets/images/cases/door-assets/door_assets_07.webp",
+      "assets/images/cases/door-assets/door_assets_08.webp",
+      "assets/images/cases/door-assets/door_assets_09.webp",
+      "assets/images/cases/door-assets/door_assets_10.webp",
+      "assets/images/cases/door-assets/door_assets_11.webp",
+      "assets/images/cases/door-assets/door_assets_12.webp",
+      "assets/images/cases/door-assets/door_assets_13.webp",
+      "assets/images/cases/door-assets/door_assets_14.webp",
+      "assets/images/cases/door-assets/door_assets_15.webp",
+      "assets/images/cases/door-assets/door_assets_16.webp",
+      "assets/images/cases/door-assets/door_assets_17.webp",
+      "assets/images/cases/door-assets/door_assets_18.webp",
+      "assets/images/cases/door-assets/door_assets_19.webp",
+      "assets/images/cases/door-assets/door_assets_20.webp"
+    ],
+    "hashtags": "#AtomicHeart #GameArt #3DArtist #PropArt #TechnicalArt #EnvironmentArt #UnrealEngine #VertexColor #LayeredMaterials #Optimization"
+  },
+  {
+    "id": "komar-asset",
+    "category": "Atomic Heart / Vehicle Art",
+    "title": "Atomic Heart — КУС-6 «Комар»",
+    "cover": "assets/images/cases/komar-asset/komar_asset_07.webp",
+    "summary": "Отдельный ассет КУС-6 «Комар» с упором на оптимизацию material slots, детализацию поверхности, текстурную проработку и финальную подготовку под Unreal Engine.",
+    "role": "Оптимизация ассета КУС-6 «Комар», сокращение material slots, cleanup структуры, детализация материалов, текстурная покраска и Unreal Engine setup.",
+    "description": "Отдельный ассет КУС-6 «Комар» для Atomic Heart. Основной фокус работы был на подготовке ассета под production: оптимизация, сокращение material slots там, где это было возможно, cleanup структуры и финальная проработка material / texture detailing. По поверхности были сделаны грязь, износ, царапины, tonal breakup, variation по кромкам и roughness detailing, чтобы металлический корпус хорошо читался как на средних, так и на крупных планах. После этого ассет был подготовлен к финальной интеграции в Unreal Engine.",
+    "process": [
+      "Оптимизировал ассет КУС-6 «Комар» под production-задачи",
+      "Сокращал material slots там, где это было возможно, и чистил структуру ассета",
+      "Подготавливал финальный material setup для контролируемой проработки поверхности и переиспользования",
+      "Добавлял текстурную детализацию: грязь, износ, царапины и surface breakup",
+      "Дорабатывал roughness и metal response для лучшей читаемости на крупных планах",
+      "Готовил финальный Unreal Engine-ready ассет для интеграции"
+    ],
+    "tools": [
+      "Maya",
+      "Substance Painter",
+      "Unreal Engine"
+    ],
+    "images": [
+      "assets/images/cases/komar-asset/komar_asset_01.webp",
+      "assets/images/cases/komar-asset/komar_asset_02.webp",
+      "assets/images/cases/komar-asset/komar_asset_03.webp",
+      "assets/images/cases/komar-asset/komar_asset_04.webp",
+      "assets/images/cases/komar-asset/komar_asset_05.webp",
+      "assets/images/cases/komar-asset/komar_asset_06.webp",
+      "assets/images/cases/komar-asset/komar_asset_07.webp"
+    ],
+    "hashtags": "#AtomicHeart #GameArt #3DArtist #VehicleArt #PropArt #TechnicalArt #Optimization #Texturing #UnrealEngine #GameDev"
   }
 ];
